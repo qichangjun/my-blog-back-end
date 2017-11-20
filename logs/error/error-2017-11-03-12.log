@@ -1,0 +1,13 @@
+[2017-11-03 12:05:12.350] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"123abc"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmUwZjVjZTg4MDkwN2MyMGI1OWNlIiwiaWF0IjoxNTA5NjgxOTEyLCJleHAiOjE1MDk3MjUxMTJ9.8qy0aJDs4Ls0TFntjNyYZMMHc2zXJvDuATYA6RnypJ4\"\n}"
+*************** response log end ***************
+

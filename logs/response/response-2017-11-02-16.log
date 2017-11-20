@@ -1,0 +1,507 @@
+[2017-11-02 16:12:54.326] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2426
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+*************** response log end ***************
+
+[2017-11-02 16:12:54.340] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /stylesheets/style.css
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/zzd/Desktop/MyCode/node.js/play-koa2/public/stylesheets/style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-11-02 16:12:54.647] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-02 16:13:32.885] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 16:13:32.939] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-02 16:14:42.982] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 16:22:43.802] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 46
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 16:39:29.568] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-02 16:40:14.593] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-02 16:40:58.692] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 43
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-02 16:42:21.447] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-02 16:42:59.892] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"search":{"rawParams":"","queryEncoder":{},"paramsMap":{}}}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"参数不正确\"\n}"
+*************** response log end ***************
+
+[2017-11-02 16:47:17.872] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 82
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-02 16:48:10.949] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 82
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": {\n    \"__v\": 0,\n    \"password\": \"2017Dctm@1234\",\n    \"_id\": \"59fadbcaf67b87227772d1bc\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-02 16:49:03.808] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 33
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:49:17.320] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:50:00.220] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:50:01.798] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 42
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-02 16:50:02.191] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-02 16:50:45.014] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/logindd
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-02 16:51:29.646] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 52
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"error\",\n  \"data\": {\n    \"code\": 11000,\n    \"index\": 0,\n    \"errmsg\": \"E11000 duplicate key error collection: mytestdb.usermodels index: user_1 dup key: { : null }\",\n    \"op\": {\n      \"password\": \"2017Dctm@1234\",\n      \"_id\": \"59fadc91b0f0fa23e3d20f46\",\n      \"__v\": 0\n    }\n  }\n}"
+*************** response log end ***************
+
+[2017-11-02 16:52:27.250] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 16
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"error\",\n  \"data\": {\n    \"code\": 11000,\n    \"index\": 0,\n    \"errmsg\": \"E11000 duplicate key error collection: mytestdb.usermodels index: user_1 dup key: { : null }\",\n    \"op\": {\n      \"password\": \"2017Dctm@1234\",\n      \"_id\": \"59fadccb8a3ce423e78f77df\",\n      \"__v\": 0\n    }\n  }\n}"
+*************** response log end ***************
+
+[2017-11-02 16:52:52.775] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 12
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:53:08.013] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 14
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:53:22.147] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 12
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:53:25.333] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:53:33.567] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:53:33.636] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:53:46.551] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:53:56.116] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 14
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:55:17.364] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 16
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:55:20.672] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:55:20.815] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:55:20.983] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:55:21.142] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:55:36.393] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 14
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:55:51.001] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:55:58.023] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:56:07.550] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 11
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-02 16:56:29.468] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 13
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": []\n}"
+*************** response log end ***************
+

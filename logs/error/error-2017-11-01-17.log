@@ -1,0 +1,424 @@
+[2017-11-01 17:29:41.888] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1094
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+*************** response log end ***************
+
+[2017-11-01 17:29:41.902] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /stylesheets/style.css
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/zzd/Desktop/MyCode/node.js/play-koa2/public/stylesheets/style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-11-01 17:29:42.026] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:30:20.028] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 112
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"success\",\n  \"data\": {\n    \"username\": \"阿阿阿\",\n    \"age\": 12\n  }\n}"
+*************** response log end ***************
+
+[2017-11-01 17:30:42.540] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 51
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"success\",\n  \"data\": {\n    \"username\": \"阿阿阿\",\n    \"age\": 12\n  }\n}"
+*************** response log end ***************
+
+[2017-11-01 17:30:42.596] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:37:38.836] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 30
+err name: TypeError
+err message: UserSchema is not a constructor
+err stack: TypeError: UserSchema is not a constructor
+    at exports.getUser (/Users/zzd/Desktop/MyCode/node.js/play-koa2/app/controllers/user_controller.js:12:16)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:43:18)
+    at app.use (/Users/zzd/Desktop/MyCode/node.js/play-koa2/app.js:37:9)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:43:18)
+    at views (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-views/lib/index.js:61:12)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:43:18)
+    at send.then.done (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-static/index.js:43:20)
+*************** error log end ***************
+
+[2017-11-01 17:37:38.894] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:38:11.322] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 22
+err name: TypeError
+err message: UserSchema is not a constructor
+err stack: TypeError: UserSchema is not a constructor
+    at exports.getUser (/Users/zzd/Desktop/MyCode/node.js/play-koa2/app/controllers/user_controller.js:12:16)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:43:18)
+    at app.use (/Users/zzd/Desktop/MyCode/node.js/play-koa2/app.js:37:9)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:43:18)
+    at views (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-views/lib/index.js:61:12)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:43:18)
+    at send.then.done (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-static/index.js:43:20)
+*************** error log end ***************
+
+[2017-11-01 17:38:11.376] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:38:16.026] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: UserSchema is not a constructor
+err stack: TypeError: UserSchema is not a constructor
+    at exports.getUser (/Users/zzd/Desktop/MyCode/node.js/play-koa2/app/controllers/user_controller.js:12:16)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:43:18)
+    at app.use (/Users/zzd/Desktop/MyCode/node.js/play-koa2/app.js:37:9)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:43:18)
+    at views (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-views/lib/index.js:61:12)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:43:18)
+    at send.then.done (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-static/index.js:43:20)
+*************** error log end ***************
+
+[2017-11-01 17:38:16.052] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:38:40.379] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 14
+err name: TypeError
+err message: UserSchema is not a constructor
+err stack: TypeError: UserSchema is not a constructor
+    at exports.getUser (/Users/zzd/Desktop/MyCode/node.js/play-koa2/app/controllers/user_controller.js:12:16)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:43:18)
+    at app.use (/Users/zzd/Desktop/MyCode/node.js/play-koa2/app.js:37:9)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:43:18)
+    at views (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-views/lib/index.js:61:12)
+    at dispatch (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-compose/index.js:43:18)
+    at send.then.done (/Users/zzd/Desktop/MyCode/node.js/play-koa2/node_modules/koa-static/index.js:43:20)
+*************** error log end ***************
+
+[2017-11-01 17:38:40.411] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:49:37.330] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 25
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-01 17:49:37.371] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:50:04.897] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 33
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-01 17:50:04.928] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:50:06.038] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-01 17:50:06.064] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:50:24.939] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 19
+response status: 200
+response body: 
+"1234"
+*************** response log end ***************
+
+[2017-11-01 17:50:24.972] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:51:51.864] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 35
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-01 17:51:51.923] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:51:53.219] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-01 17:51:53.247] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:52:43.699] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2894
+response status: 200
+response body: 
+"{\n  \"__v\": 0,\n  \"user\": \"1234\",\n  \"password\": \"1234\",\n  \"email\": \"1234\",\n  \"token\": \"1234\",\n  \"_id\": \"59f99968b27a583f77c72d31\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:52:43.758] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 17:53:03.960] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 36
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"success\",\n  \"data\": {\n    \"__v\": 0,\n    \"user\": \"1234\",\n    \"password\": \"1234\",\n    \"email\": \"1234\",\n    \"token\": \"1234\",\n    \"_id\": \"59f9997f609d4a3f8a1ffaeb\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-01 17:53:04.031] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+

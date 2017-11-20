@@ -1,0 +1,494 @@
+[2017-11-06 12:10:16.342] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 14
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"密码不正确\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-06 12:10:21.421] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"12345"}
+response time: 6
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": {\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTQxNDIxLCJleHAiOjE1MDk5ODQ2MjF9.83zy4vf35cX-V51ZO8xOn-1C5G1J233f4tNWH_ZV0KE\",\n    \"userName\": \"qichangjun\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 12:10:21.647] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTQxNDIxLCJleHAiOjE1MDk5ODQ2MjF9.83zy4vf35cX-V51ZO8xOn-1C5G1J233f4tNWH_ZV0KE"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:10:37.727] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTQxNDIxLCJleHAiOjE1MDk5ODQ2MjF9.83zy4vf35cX-V51ZO8xOn-1C5G1J233f4tNWH_ZV0KE"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:10:39.151] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTQxNDIxLCJleHAiOjE1MDk5ODQ2MjF9.83zy4vf35cX-V51ZO8xOn-1C5G1J233f4tNWH_ZV0KE"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:10:41.969] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTQxNDIxLCJleHAiOjE1MDk5ODQ2MjF9.83zy4vf35cX-V51ZO8xOn-1C5G1J233f4tNWH_ZV0KE"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:12:51.855] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTQxNDIxLCJleHAiOjE1MDk5ODQ2MjF9.83zy4vf35cX-V51ZO8xOn-1C5G1J233f4tNWH_ZV0KE"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:12:55.839] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTQxNDIxLCJleHAiOjE1MDk5ODQ2MjF9.83zy4vf35cX-V51ZO8xOn-1C5G1J233f4tNWH_ZV0KE"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:13:03.450] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTQxNDIxLCJleHAiOjE1MDk5ODQ2MjF9.83zy4vf35cX-V51ZO8xOn-1C5G1J233f4tNWH_ZV0KE"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:14:30.562] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTQxNDIxLCJleHAiOjE1MDk5ODQ2MjF9.83zy4vf35cX-V51ZO8xOn-1C5G1J233f4tNWH_ZV0KE"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:14:45.177] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTQxNDIxLCJleHAiOjE1MDk5ODQ2MjF9.83zy4vf35cX-V51ZO8xOn-1C5G1J233f4tNWH_ZV0KE"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:16:03.448] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"12345"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": {\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQxNzYzLCJleHAiOjE1MDk5ODQ5NjN9.Y3lNVM_ZV8ZwuYowwpnkh5KIxOpRzg1kc1cRAewVlPo\",\n    \"userName\": \"admin\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 12:16:03.570] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQxNzYzLCJleHAiOjE1MDk5ODQ5NjN9.Y3lNVM_ZV8ZwuYowwpnkh5KIxOpRzg1kc1cRAewVlPo"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:16:04.659] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQxNzYzLCJleHAiOjE1MDk5ODQ5NjN9.Y3lNVM_ZV8ZwuYowwpnkh5KIxOpRzg1kc1cRAewVlPo"}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 12:16:27.874] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQxNzYzLCJleHAiOjE1MDk5ODQ5NjN9.Y3lNVM_ZV8ZwuYowwpnkh5KIxOpRzg1kc1cRAewVlPo"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:16:27.887] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQxNzYzLCJleHAiOjE1MDk5ODQ5NjN9.Y3lNVM_ZV8ZwuYowwpnkh5KIxOpRzg1kc1cRAewVlPo"}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 12:17:36.007] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"12345"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": {\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQxODU2LCJleHAiOjE1MDk5ODUwNTZ9.ZY-p9SjAp_KWdp1g9dJJJan8bD0GY9Cf486vG4qZsaU\",\n    \"userName\": \"admin\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 12:17:36.135] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQxODU2LCJleHAiOjE1MDk5ODUwNTZ9.ZY-p9SjAp_KWdp1g9dJJJan8bD0GY9Cf486vG4qZsaU"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:18:41.736] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQxODU2LCJleHAiOjE1MDk5ODUwNTZ9.ZY-p9SjAp_KWdp1g9dJJJan8bD0GY9Cf486vG4qZsaU"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:21:24.832] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"12345"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": {\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMDg0LCJleHAiOjE1MDk5ODUyODR9.-LSswuIVhyRO7qCrDO3zBzv0GnAAuwQJ4cAJUjfqOvE\",\n    \"userName\": \"admin\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 12:21:24.951] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMDg0LCJleHAiOjE1MDk5ODUyODR9.-LSswuIVhyRO7qCrDO3zBzv0GnAAuwQJ4cAJUjfqOvE"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:21:26.104] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMDg0LCJleHAiOjE1MDk5ODUyODR9.-LSswuIVhyRO7qCrDO3zBzv0GnAAuwQJ4cAJUjfqOvE"}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 12:25:01.216] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMDg0LCJleHAiOjE1MDk5ODUyODR9.-LSswuIVhyRO7qCrDO3zBzv0GnAAuwQJ4cAJUjfqOvE"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:25:12.502] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMDg0LCJleHAiOjE1MDk5ODUyODR9.-LSswuIVhyRO7qCrDO3zBzv0GnAAuwQJ4cAJUjfqOvE"}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 12:25:21.552] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"12345"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": {\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0\",\n    \"userName\": \"admin\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 12:25:21.578] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:25:48.996] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:25:51.358] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:26:02.034] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:26:09.641] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:26:58.027] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:27:13.672] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:27:55.645] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:27:57.466] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:30:04.198] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 12:30:05.541] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0"}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 12:35:07.630] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0"}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 12:35:21.898] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTQyMzIxLCJleHAiOjE1MDk5ODU1MjF9.45lf9LkaiRhDj_2jlD-3MSXnFjEYoGTgByIUpD1L1n0"}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+

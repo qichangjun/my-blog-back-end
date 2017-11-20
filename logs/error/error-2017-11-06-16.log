@@ -1,0 +1,650 @@
+[2017-11-06 16:26:45.670] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"12345"}
+response time: 42
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": {\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA\",\n    \"userName\": \"qichangjun\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 16:26:45.834] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 11
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    },\n    {\n      \"_id\": \"59ffcd9947c10a14d0512230\",\n      \"title\": \"测试文章111\",\n      \"content\": \"123456\",\n      \"author\": \"admin\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T02:48:57.061Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 16:26:47.261] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:26:47.270] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 7
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"文章不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-06 16:27:43.580] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:27:43.620] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 32
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"59ffb96657f2d003ffe09beb\",\n    \"title\": \"efef\",\n    \"content\": \"efefe\",\n    \"author\": \"qichangjun\",\n    \"__v\": 0,\n    \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 16:28:56.272] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:28:56.295] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 46
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"59ffb96657f2d003ffe09beb\",\n    \"title\": \"efef\",\n    \"content\": \"efefe\",\n    \"author\": \"qichangjun\",\n    \"__v\": 0,\n    \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 16:29:11.945] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 6
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"59ffb96657f2d003ffe09beb\",\n    \"title\": \"efef\",\n    \"content\": \"efefe\",\n    \"author\": \"qichangjun\",\n    \"__v\": 0,\n    \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 16:29:11.948] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:30:27.903] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"59ffb96657f2d003ffe09beb\",\n    \"title\": \"efef\",\n    \"content\": \"efefe\",\n    \"author\": \"qichangjun\",\n    \"__v\": 0,\n    \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 16:30:27.907] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:32:02.194] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:32:02.206] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 26
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"数据库错误\",\n  \"data\": \"ReferenceError: consle is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:32:11.543] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:32:11.549] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 29
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"数据库错误\",\n  \"data\": \"ReferenceError: consle is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:32:29.708] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:32:29.715] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 28
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"数据库错误\",\n  \"data\": \"ReferenceError: consle is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:33:00.269] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:33:00.282] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 29
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"数据库错误\",\n  \"data\": \"ReferenceError: consle is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:33:17.647] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:33:17.654] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 33
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"数据库错误\",\n  \"data\": \"ReferenceError: consle is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:33:41.974] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:33:41.989] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 35
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"数据库错误\",\n  \"data\": \"ReferenceError: consle is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:34:01.610] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:34:01.623] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 31
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"数据库错误\",\n  \"data\": \"ReferenceError: consle is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:34:27.917] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:34:27.925] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 35
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"数据库错误\",\n  \"data\": \"ReferenceError: consle is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:44:05.846] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:44:05.857] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 24
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"数据库错误\",\n  \"data\": \"ReferenceError: consle is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:44:22.830] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:44:22.842] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 25
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"数据库错误\",\n  \"data\": \"ReferenceError: consle is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:44:45.473] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:44:45.486] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 29
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"数据库错误\",\n  \"data\": \"ReferenceError: consle is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:45:08.219] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:45:08.236] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 29
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"数据库错误\",\n  \"data\": \"ReferenceError: consle is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:45:17.310] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:45:17.323] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 29
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"数据库错误\",\n  \"data\": \"ReferenceError: consle is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:45:38.102] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:45:38.122] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 47
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"59ffb96657f2d003ffe09beb\",\n    \"title\": \"efef\",\n    \"content\": \"efefe\",\n    \"author\": \"qichangjun\",\n    \"__v\": 0,\n    \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 16:45:49.096] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:45:49.112] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 38
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"59ffb96657f2d003ffe09beb\",\n    \"title\": \"efef\",\n    \"content\": \"efefe\",\n    \"author\": \"qichangjun\",\n    \"__v\": 0,\n    \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 16:45:59.079] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 7
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"59ffb96657f2d003ffe09beb\",\n    \"title\": \"efef\",\n    \"content\": \"efefe\",\n    \"author\": \"qichangjun\",\n    \"__v\": 0,\n    \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 16:45:59.080] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:47:36.990] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:47:37.011] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 34
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"59ffb96657f2d003ffe09beb\",\n    \"title\": \"efef\",\n    \"content\": \"efefe\",\n    \"author\": \"qichangjun\",\n    \"__v\": 0,\n    \"viewed\": 0,\n    \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 16:47:54.339] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-06 16:47:54.361] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 34
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"59ffb96657f2d003ffe09beb\",\n    \"title\": \"efef\",\n    \"content\": \"efefe\",\n    \"author\": \"qichangjun\",\n    \"__v\": 0,\n    \"viewed\": 1,\n    \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 16:48:00.999] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 7
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"59ffb96657f2d003ffe09beb\",\n    \"title\": \"efef\",\n    \"content\": \"efefe\",\n    \"author\": \"qichangjun\",\n    \"__v\": 0,\n    \"viewed\": 2,\n    \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 16:48:01.000] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"59ffb96657f2d003ffe09beb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTU2ODA1LCJleHAiOjE1MTAwMDAwMDV9.TIrks1y0SpHdbkxE7reAaOZesC2DIHepnGD65r_BOoA"}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+

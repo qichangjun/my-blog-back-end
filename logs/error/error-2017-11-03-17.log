@@ -1,0 +1,130 @@
+[2017-11-03 17:28:40.825] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 16
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": {\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5NzAxMzIwLCJleHAiOjE1MDk3NDQ1MjB9.Q3gnV3q7hHyNBFmeDF6n8coo_ENiaV1fClyPJ9H9y6c\",\n    \"userName\": \"admin\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-03 17:28:40.849] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5NzAxMzIwLCJleHAiOjE1MDk3NDQ1MjB9.Q3gnV3q7hHyNBFmeDF6n8coo_ENiaV1fClyPJ9H9y6c"}
+response time: 6
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-03 17:28:45.520] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"isds","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 17:28:48.071] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"密码不正确\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 17:28:49.960] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"123abc"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": {\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmUwZjVjZTg4MDkwN2MyMGI1OWNlIiwiaWF0IjoxNTA5NzAxMzI5LCJleHAiOjE1MDk3NDQ1Mjl9.K9XKLmaB1q2kV2GjQ-0qvwrCJe0URr-RIrPZsAXS7OQ\",\n    \"userName\": \"qichangjun\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-03 17:28:49.984] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmUwZjVjZTg4MDkwN2MyMGI1OWNlIiwiaWF0IjoxNTA5NzAxMzI5LCJleHAiOjE1MDk3NDQ1Mjl9.K9XKLmaB1q2kV2GjQ-0qvwrCJe0URr-RIrPZsAXS7OQ"}
+response time: 6
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-03 17:28:54.238] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/createArticle
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"dddd","content":"aaaaa","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmUwZjVjZTg4MDkwN2MyMGI1OWNlIiwiaWF0IjoxNTA5NzAxMzI5LCJleHAiOjE1MDk3NDQ1Mjl9.K9XKLmaB1q2kV2GjQ-0qvwrCJe0URr-RIrPZsAXS7OQ","author":"qichangjun"}
+response time: 17
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"创建成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 17:28:54.657] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmUwZjVjZTg4MDkwN2MyMGI1OWNlIiwiaWF0IjoxNTA5NzAxMzI5LCJleHAiOjE1MDk3NDQ1Mjl9.K9XKLmaB1q2kV2GjQ-0qvwrCJe0URr-RIrPZsAXS7OQ"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59fc36d6bc01de6308a80f0a\",\n      \"title\": \"dddd\",\n      \"content\": \"aaaaa\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-03T09:28:54.227Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-03 17:28:59.332] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/deleteArticle
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmUwZjVjZTg4MDkwN2MyMGI1OWNlIiwiaWF0IjoxNTA5NzAxMzI5LCJleHAiOjE1MDk3NDQ1Mjl9.K9XKLmaB1q2kV2GjQ-0qvwrCJe0URr-RIrPZsAXS7OQ","id":"59fc36d6bc01de6308a80f0a"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"59fc36d6bc01de6308a80f0a\",\n    \"title\": \"dddd\",\n    \"content\": \"aaaaa\",\n    \"author\": \"qichangjun\",\n    \"__v\": 0,\n    \"creatDate\": \"2017-11-03T09:28:54.227Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-03 17:28:59.726] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmUwZjVjZTg4MDkwN2MyMGI1OWNlIiwiaWF0IjoxNTA5NzAxMzI5LCJleHAiOjE1MDk3NDQ1Mjl9.K9XKLmaB1q2kV2GjQ-0qvwrCJe0URr-RIrPZsAXS7OQ"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": []\n}"
+*************** response log end ***************
+

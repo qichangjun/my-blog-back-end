@@ -1,0 +1,260 @@
+[2017-11-06 09:20:36.554] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"zhouxu","password":"dctm1234"}
+response time: 92
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-06 09:20:43.648] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"123abc"}
+response time: 78
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"密码不正确\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-06 09:20:47.258] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"123abc"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"密码不正确\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-06 09:20:52.808] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"abc123"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"密码不正确\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-06 09:20:57.107] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"334204642"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"密码不正确\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-06 09:21:01.432] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"dctm1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"密码不正确\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-06 09:21:59.763] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"12345"}
+response time: 6
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": {\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTMxMzE5LCJleHAiOjE1MDk5NzQ1MTl9.1YGTo6CnNdHfarmLFUYrpmKexZKgi3OAXQxqdEqymfY\",\n    \"userName\": \"qichangjun\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 09:21:59.868] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTMxMzE5LCJleHAiOjE1MDk5NzQ1MTl9.1YGTo6CnNdHfarmLFUYrpmKexZKgi3OAXQxqdEqymfY"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-06 09:22:32.185] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"12345","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk5MzEzNTIsImV4cCI6MTUwOTk3NDU1Mn0.5HnhN3RpL9c5vIgd_x5_X9_fYX0sYtHd-lOO20hERg8"}
+response time: 90
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-06 09:22:34.369] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"12345"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": {\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTMxMzU0LCJleHAiOjE1MDk5NzQ1NTR9.4CFrcZDwNyBjJIm3_lih4THGNeCmA8EKabWX5813OuA\",\n    \"userName\": \"qichangjun\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 09:22:34.384] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTMxMzU0LCJleHAiOjE1MDk5NzQ1NTR9.4CFrcZDwNyBjJIm3_lih4THGNeCmA8EKabWX5813OuA"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-06 09:22:38.549] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/createArticle
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"dsd","content":"sdsd","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTMxMzU0LCJleHAiOjE1MDk5NzQ1NTR9.4CFrcZDwNyBjJIm3_lih4THGNeCmA8EKabWX5813OuA","author":"qichangjun"}
+response time: 652
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"创建成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-06 09:22:38.972] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTMxMzU0LCJleHAiOjE1MDk5NzQ1NTR9.4CFrcZDwNyBjJIm3_lih4THGNeCmA8EKabWX5813OuA"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb95d57f2d003ffe09bea\",\n      \"title\": \"dsd\",\n      \"content\": \"sdsd\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:37.899Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 09:22:42.296] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/deleteArticle
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTMxMzU0LCJleHAiOjE1MDk5NzQ1NTR9.4CFrcZDwNyBjJIm3_lih4THGNeCmA8EKabWX5813OuA","id":"59ffb95d57f2d003ffe09bea"}
+response time: 56
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"59ffb95d57f2d003ffe09bea\",\n    \"title\": \"dsd\",\n    \"content\": \"sdsd\",\n    \"author\": \"qichangjun\",\n    \"__v\": 0,\n    \"creatDate\": \"2017-11-06T01:22:37.899Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 09:22:42.708] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTMxMzU0LCJleHAiOjE1MDk5NzQ1NTR9.4CFrcZDwNyBjJIm3_lih4THGNeCmA8EKabWX5813OuA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": []\n}"
+*************** response log end ***************
+
+[2017-11-06 09:22:46.730] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/createArticle
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"efef","content":"efefe","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTMxMzU0LCJleHAiOjE1MDk5NzQ1NTR9.4CFrcZDwNyBjJIm3_lih4THGNeCmA8EKabWX5813OuA","author":"qichangjun"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"创建成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-06 09:22:47.146] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5OTMxMzU0LCJleHAiOjE1MDk5NzQ1NTR9.4CFrcZDwNyBjJIm3_lih4THGNeCmA8EKabWX5813OuA"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+
+[2017-11-06 09:22:51.545] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admn","password":"12345"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-06 09:22:54.534] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"12345"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": {\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTMxMzc0LCJleHAiOjE1MDk5NzQ1NzR9.mA0ft0-LbqHMNUgW9XTYEwbe5xBatu14jBE4op3-acM\",\n    \"userName\": \"admin\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-06 09:22:54.545] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmZmI5NTg1N2YyZDAwM2ZmZTA5YmU5IiwiaWF0IjoxNTA5OTMxMzc0LCJleHAiOjE1MDk5NzQ1NzR9.mA0ft0-LbqHMNUgW9XTYEwbe5xBatu14jBE4op3-acM"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": [\n    {\n      \"_id\": \"59ffb96657f2d003ffe09beb\",\n      \"title\": \"efef\",\n      \"content\": \"efefe\",\n      \"author\": \"qichangjun\",\n      \"__v\": 0,\n      \"creatDate\": \"2017-11-06T01:22:46.729Z\"\n    }\n  ]\n}"
+*************** response log end ***************
+

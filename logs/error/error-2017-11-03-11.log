@@ -1,0 +1,117 @@
+[2017-11-03 11:13:34.149] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\",\n  \"data\": \"用户名已存在\"\n}"
+*************** response log end ***************
+
+[2017-11-03 11:13:57.044] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\",\n  \"data\": \"用户名已存在\"\n}"
+*************** response log end ***************
+
+[2017-11-03 11:14:29.227] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\",\n  \"data\": \"用户名已存在\"\n}"
+*************** response log end ***************
+
+[2017-11-03 11:22:29.084] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"123abc","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoicWljaGFuZ2p1biIsImlhdCI6MTUwOTY3OTM0OSwiZXhwIjoxNTA5NzIyNTQ5fQ.2iJsErS7nrT5VJDmy5ISu_FWCZ0MpVXq2WbSRRswQ20"}
+response time: 9
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 11:22:35.278] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"123abc"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmUwZjVjZTg4MDkwN2MyMGI1OWNlIiwiaWF0IjoxNTA5Njc5MzU1LCJleHAiOjE1MDk3MjI1NTV9.yibvaQXnnX3p8omccO41g7N6VpIdiO29r-LDDOKNtnY\"\n}"
+*************** response log end ***************
+
+[2017-11-03 11:22:42.157] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"123abc"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\",\n  \"data\": \"用户名已存在\"\n}"
+*************** response log end ***************
+
+[2017-11-03 11:22:51.088] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"123abc"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmUwZjVjZTg4MDkwN2MyMGI1OWNlIiwiaWF0IjoxNTA5Njc5MzcxLCJleHAiOjE1MDk3MjI1NzF9.GJ-9LsJOVSaUQlwo8DDnyUfj4iHVhhMlIr5qdcrisE0\"\n}"
+*************** response log end ***************
+
+[2017-11-03 11:42:20.072] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"123abcdsdsa"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"密码不正确\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 11:42:22.975] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"123abc"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmUwZjVjZTg4MDkwN2MyMGI1OWNlIiwiaWF0IjoxNTA5NjgwNTQyLCJleHAiOjE1MDk3MjM3NDJ9.ncT8tR6pJ0PbMh54Clazjs3wynfzlrjlCvOYWWEbh58\"\n}"
+*************** response log end ***************
+

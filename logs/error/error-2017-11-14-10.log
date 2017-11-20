@@ -1,0 +1,87 @@
+[2017-11-14 10:13:07.165] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1582
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+*************** response log end ***************
+
+[2017-11-14 10:13:07.210] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /stylesheets/style.css
+request client ip:  ::1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/zzd/Desktop/MyCode/node.js/play-koa2/public/stylesheets/style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-11-14 10:13:07.380] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-14 10:55:29.995] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 216
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": {\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEwNjI4MTI5LCJleHAiOjE1MTA2NzEzMjl9.fXWAvWb3HzT6tZJetChAXZ4cJoH1xQMCWrYcl1aZ7Ko\",\n    \"userName\": \"admin\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-14 10:55:30.371] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::1
+request body: 
+{"currentPage":1,"pageSize":10,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEwNjI4MTI5LCJleHAiOjE1MTA2NzEzMjl9.fXWAvWb3HzT6tZJetChAXZ4cJoH1xQMCWrYcl1aZ7Ko"}
+response time: 27
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"data\": [\n      {\n        \"_id\": \"5a050d461ec94d036d812379\",\n        \"title\": \"123323\",\n        \"content\": \"123132323\",\n        \"author\": \"admin\",\n        \"__v\": 0,\n        \"replyList\": [\n          {\n            \"userName\": \"admin\",\n            \"content\": \"![c1582528660fa.jpg](http://7xpyje.com1.z0.glb.clouddn.com/c1582528660fa.jpg)\",\n            \"_id\": \"5a05134490b7a44ed3e4eeaa\",\n            \"replyChildList\": [],\n            \"replyTime\": \"2017-11-10T02:47:32.384Z\"\n          },\n          {\n            \"userName\": \"admin\",\n            \"content\": \"![070a81e206771.png](http://7xpyje.com1.z0.glb.clouddn.com/070a81e206771.png)\\n\\n    console.log(12345)\",\n            \"_id\": \"5a096bfd391f055b03517241\",\n            \"replyChildList\": [],\n            \"replyTime\": \"2017-11-13T09:55:09.129Z\"\n          }\n        ],\n        \"replyNum\": 2,\n        \"viewed\": 8,\n        \"creatDate\": \"2017-11-10T02:21:58.308Z\"\n      },\n      {\n        \"_id\": \"5a0506db1ec94d036d812378\",\n        \"title\": \"swdwd\",\n        \"content\": \"wdqdqds\",\n        \"author\": \"admin\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-10T01:54:35.907Z\"\n      },\n      {\n        \"_id\": \"5a04051a36119115add2f7fd\",\n        \"title\": \"8\",\n        \"content\": \"8\",\n        \"author\": \"admin\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-09T07:34:50.919Z\"\n      },\n      {\n        \"_id\": \"5a04051036119115add2f7fc\",\n        \"title\": \"7\",\n        \"content\": \"7\",\n        \"author\": \"admin\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 1,\n        \"creatDate\": \"2017-11-09T07:34:40.844Z\"\n      },\n      {\n        \"_id\": \"5a04050d36119115add2f7fb\",\n        \"title\": \"6\",\n        \"content\": \"6\",\n        \"author\": \"admin\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-09T07:34:37.560Z\"\n      },\n      {\n        \"_id\": \"5a04050a36119115add2f7fa\",\n        \"title\": \"5\",\n        \"content\": \"5\",\n        \"author\": \"admin\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 1,\n        \"creatDate\": \"2017-11-09T07:34:34.776Z\"\n      },\n      {\n        \"_id\": \"5a04050736119115add2f7f9\",\n        \"title\": \"4\",\n        \"content\": \"4\",\n        \"author\": \"admin\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-09T07:34:31.152Z\"\n      },\n      {\n        \"_id\": \"5a04050336119115add2f7f8\",\n        \"title\": \"3\",\n        \"content\": \"3\",\n        \"author\": \"admin\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-09T07:34:27.304Z\"\n      },\n      {\n        \"_id\": \"5a04050036119115add2f7f7\",\n        \"title\": \"2\",\n        \"content\": \"2\",\n        \"author\": \"admin\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-09T07:34:24.384Z\"\n      },\n      {\n        \"_id\": \"5a0404fd36119115add2f7f6\",\n        \"title\": \"1\",\n        \"content\": \"1\",\n        \"author\": \"admin\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 7,\n        \"creatDate\": \"2017-11-09T07:34:21.305Z\"\n      }\n    ],\n    \"totalElement\": 14\n  }\n}"
+*************** response log end ***************
+
+[2017-11-14 10:55:31.884] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a050d461ec94d036d812379
+request client ip:  ::1
+request query:  {"id":"5a050d461ec94d036d812379"}
+response time: 111
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a050d461ec94d036d812379\",\n    \"title\": \"123323\",\n    \"content\": \"123132323\",\n    \"author\": \"admin\",\n    \"__v\": 0,\n    \"replyList\": [\n      {\n        \"userName\": \"admin\",\n        \"content\": \"![c1582528660fa.jpg](http://7xpyje.com1.z0.glb.clouddn.com/c1582528660fa.jpg)\",\n        \"_id\": \"5a05134490b7a44ed3e4eeaa\",\n        \"replyChildList\": [],\n        \"replyTime\": \"2017-11-10T02:47:32.384Z\"\n      },\n      {\n        \"userName\": \"admin\",\n        \"content\": \"![070a81e206771.png](http://7xpyje.com1.z0.glb.clouddn.com/070a81e206771.png)\\n\\n    console.log(12345)\",\n        \"_id\": \"5a096bfd391f055b03517241\",\n        \"replyChildList\": [],\n        \"replyTime\": \"2017-11-13T09:55:09.129Z\"\n      }\n    ],\n    \"replyNum\": 2,\n    \"viewed\": 8,\n    \"creatDate\": \"2017-11-10T02:21:58.308Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-14 10:55:32.006] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a050d461ec94d036d812379","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEwNjI4MTI5LCJleHAiOjE1MTA2NzEzMjl9.fXWAvWb3HzT6tZJetChAXZ4cJoH1xQMCWrYcl1aZ7Ko"}
+response time: 240
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a050d461ec94d036d812379\",\n    \"title\": \"123323\",\n    \"content\": \"123132323\",\n    \"author\": \"admin\",\n    \"__v\": 0,\n    \"replyList\": [\n      {\n        \"userName\": \"admin\",\n        \"content\": \"![c1582528660fa.jpg](http://7xpyje.com1.z0.glb.clouddn.com/c1582528660fa.jpg)\",\n        \"_id\": \"5a05134490b7a44ed3e4eeaa\",\n        \"replyChildList\": [],\n        \"replyTime\": \"2017-11-10T02:47:32.384Z\"\n      },\n      {\n        \"userName\": \"admin\",\n        \"content\": \"![070a81e206771.png](http://7xpyje.com1.z0.glb.clouddn.com/070a81e206771.png)\\n\\n    console.log(12345)\",\n        \"_id\": \"5a096bfd391f055b03517241\",\n        \"replyChildList\": [],\n        \"replyTime\": \"2017-11-13T09:55:09.129Z\"\n      }\n    ],\n    \"replyNum\": 2,\n    \"viewed\": 9,\n    \"creatDate\": \"2017-11-10T02:21:58.308Z\"\n  }\n}"
+*************** response log end ***************
+

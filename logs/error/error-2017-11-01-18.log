@@ -1,0 +1,48 @@
+[2017-11-01 18:02:59.788] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"success\",\n  \"data\": {\n    \"__v\": 0,\n    \"user\": \"1234\",\n    \"password\": \"1234\",\n    \"email\": \"1234\",\n    \"token\": \"1234\",\n    \"_id\": \"59f99bd3609d4a3f8a1ffaec\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-01 18:02:59.843] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 18:06:47.789] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 36
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": {\n    \"__v\": 0,\n    \"user\": \"1234\",\n    \"password\": \"1234\",\n    \"email\": \"1234\",\n    \"token\": \"1234\",\n    \"_id\": \"59f99cb79b91e23fff30dffa\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-01 18:06:47.874] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+

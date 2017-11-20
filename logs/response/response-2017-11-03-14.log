@@ -1,0 +1,156 @@
+[2017-11-03 14:41:59.526] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qijdi","password":"2017Dctm@1234"}
+response time: 17
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 14:41:59.539] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qijdi","password":"2017Dctm@1234"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 14:41:59.540] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qijdi","password":"2017Dctm@1234"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 14:41:59.633] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qijdi","password":"2017Dctm@1234"}
+response time: 100
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 14:41:59.634] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qijdi","password":"2017Dctm@1234"}
+response time: 99
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 14:41:59.634] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qijdi","password":"2017Dctm@1234"}
+response time: 99
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 14:42:02.437] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qijdi","password":"wdwdwdwdw"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 14:42:03.148] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qijdi","password":"wdwdwdwdw"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 14:42:07.222] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qicj","password":"wdwdwdwdw"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 14:42:09.472] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qicj","password":"wdwdwdwdw"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 14:42:12.213] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"wdwdwdwdw"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"密码不正确\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 14:42:15.228] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"123abc"}
+response time: 7
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmUwZjVjZTg4MDkwN2MyMGI1OWNlIiwiaWF0IjoxNTA5NjkxMzM1LCJleHAiOjE1MDk3MzQ1MzV9.-FyszsXBOfKbgeNOZ_QiLVifpnrr0yt905bM6Qx7t-E\"\n}"
+*************** response log end ***************
+

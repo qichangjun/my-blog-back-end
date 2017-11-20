@@ -1,0 +1,429 @@
+[2017-11-03 10:07:25.716] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 180
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 10:07:39.592] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2NzQ4NTksImV4cCI6MTUwOTcxODA1OX0.QPkLXRg1i625tiSbuuhS6pK2vejEnK7586ezdu0QZOs"}
+response time: 187
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 10:08:25.671] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 252
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\",\n  \"data\": \"用户名已存在\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:09:43.138] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\",\n  \"data\": \"用户名已存在\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:09:55.289] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\",\n  \"data\": \"用户名已存在\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:10:31.792] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\",\n  \"data\": \"用户名已存在\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:10:34.432] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc1MDM0LCJleHAiOjE1MDk3MTgyMzR9.q1WeCDUruc_yMzD8Mbi_WCLOPj5qx16pbHM2RnS-8Yg\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:10:35.678] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc1MDM1LCJleHAiOjE1MDk3MTgyMzV9.9gxilzWHMN7hw92I7X9HE2QLXjgkTI4IX-MfZ7eGdU4\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:10:55.474] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc1MDU1LCJleHAiOjE1MDk3MTgyNTV9.4RC7HCGx8AtStYWYELdCVo9MNY4HAGICEMCx4NFaG_g\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:11:38.256] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc1MDk4LCJleHAiOjE1MDk3MTgyOTh9.lqHKZx25rEGABhcZbcpIhDEOn0E_7qHDOHvNgammkLw\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:25:14.118] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc1OTE0LCJleHAiOjE1MDk3MTkxMTR9.KNRTgs_1H0iVRktzxR2J7xLSUeu8Z4K6RuZPam4FBn4\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:25:59.683] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc1OTU5LCJleHAiOjE1MDk3MTkxNTl9.XfT8d5t_PJMng7QqPMlL6_3RIRDsI7Fb0We_vBoceFM\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:27:57.237] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc2MDc3LCJleHAiOjE1MDk3MTkyNzd9.dnoBbjPbbAH4RPQWgWh3GaSRn8fxzExcCzFjHQPR4m0\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:29:31.553] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc2MTcxLCJleHAiOjE1MDk3MTkzNzF9.QlAH7lIQSwlwRztkB9856d0Mec6Vmnj2jNy_jOPw-3w\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:29:41.480] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc2MTgxLCJleHAiOjE1MDk3MTkzODF9.X9qC4n1pFiiVGPV8ReXJO7eOlmChw1uaxzN1j6pvrEk\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:31:35.635] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc2Mjk1LCJleHAiOjE1MDk3MTk0OTV9._0uklIxivOV3OC-nQCWNA4zRRqHjtW5zjDmKCXJ56Os\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:33:07.742] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc2Mzg3LCJleHAiOjE1MDk3MTk1ODd9.opO8YQSflYJUaTLNYMS-lp3YdFfvxFNXvmhWBOJM5JA\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:33:31.693] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc2NDExLCJleHAiOjE1MDk3MTk2MTF9.k-YqwMK1uwX8rhSdDeleaARezY5BePG3pIWOkbAP_z4\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:34:04.251] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc2NDQ0LCJleHAiOjE1MDk3MTk2NDR9.O7Ht0NnlxWrVRmYrAfOsxgyu4UOitgpKuweKwjd-LLE\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:35:38.822] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc2NTM4LCJleHAiOjE1MDk3MTk3Mzh9.NlZrFLe3JWP8KLrmYqTu9Fhks3LpMaIoZSCpAC7Hm1Y\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:36:29.324] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc2NTg5LCJleHAiOjE1MDk3MTk3ODl9.aaIoZ-XhqZtXMjYvuGIABpAXGMAAcYtUByTIhH368Ww\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:37:48.459] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"hahaha","password":"123412421"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 10:37:54.938] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"123abc"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-03 10:40:37.175] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc2ODM3LCJleHAiOjE1MDk3MjAwMzd9.0AUBDTNx_WgPxih9YaSCZj91C3PIzr64ztuqgTvo5S4\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:41:12.846] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc2ODcyLCJleHAiOjE1MDk3MjAwNzJ9.ZnlGIIcPYnlCGJ_36UmrtfTAgahMyJaH8_T8h7FdyK0\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:45:30.880] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc3MTMwLCJleHAiOjE1MDk3MjAzMzB9.8fPAYttqyTv6iNyGwfxro16YFNYQ14e5QhzjKGgfF5g\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:46:05.190] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc3MTY1LCJleHAiOjE1MDk3MjAzNjV9.BhLEYSiHNvZeOBuewh0gH_AtOnuJwpX4U1VKTGLSyfM\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:54:05.813] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc3NjQ1LCJleHAiOjE1MDk3MjA4NDV9.yRFcYLVShaIp82kgG5u9-FzMWt5UANCb-QAwxbubqo8\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:55:15.242] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc3NzE1LCJleHAiOjE1MDk3MjA5MTV9.7U3SniHc8AEFJqrV9ropP2mKRrEgwKhsYDGAfxOnuQQ\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:56:04.803] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc3NzY0LCJleHAiOjE1MDk3MjA5NjR9.9KUYhDITw-iWB238nF4H4oj-ziu3Le4KkZAGYzn4GEI\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:57:10.957] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc3ODMwLCJleHAiOjE1MDk3MjEwMzB9.C7Rj7nBWPUz4j8zvFmFMdSeq9w8qvAnCrzb23bGB2vg\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:57:51.883] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc3ODcxLCJleHAiOjE1MDk3MjEwNzF9.EJBxSZFgzI3BCrn8rN650KPohqiwElzY7_q4MJb3500\"\n}"
+*************** response log end ***************
+
+[2017-11-03 10:59:03.326] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTA5Njc3OTQzLCJleHAiOjE1MDk3MjExNDN9.CG8syyjlT2NpeUSHHD7s4ndt_hTk8uhk8qHg5zqN9Qw\"\n}"
+*************** response log end ***************
+

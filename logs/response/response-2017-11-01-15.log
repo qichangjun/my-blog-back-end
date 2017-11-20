@@ -1,0 +1,372 @@
+[2017-11-01 15:00:55.498] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1125
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+*************** response log end ***************
+
+[2017-11-01 15:00:55.518] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /stylesheets/style.css
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/zzd/Desktop/MyCode/node.js/play-koa2/public/stylesheets/style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-11-01 15:00:55.568] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-01 15:01:03.580] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /users
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"this is a users response!"
+*************** response log end ***************
+
+[2017-11-01 15:01:12.807] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /users/bar
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"this is a users/bar response"
+*************** response log end ***************
+
+[2017-11-01 15:01:17.028] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /bar
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-01 15:01:26.683] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /string
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"koa2 string"
+*************** response log end ***************
+
+[2017-11-01 15:03:02.696] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /string
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 41
+response status: 200
+response body: 
+"koa2 string"
+*************** response log end ***************
+
+[2017-11-01 15:03:05.731] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 38
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-01 15:03:18.769] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-01 15:03:28.033] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"username\": \"阿阿阿\",\n  \"age\": 12\n}"
+*************** response log end ***************
+
+[2017-11-01 15:03:34.068] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-01 15:03:38.105] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"username\": \"阿阿阿\",\n  \"age\": 12\n}"
+*************** response log end ***************
+
+[2017-11-01 15:07:52.930] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 20
+response status: 200
+response body: 
+{"code":0,"message":"success","data":"{\n  \"username\": \"阿阿阿\",\n  \"age\": 12\n}"}
+*************** response log end ***************
+
+[2017-11-01 15:09:52.508] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 18
+response status: 200
+response body: 
+"{\n  \"username\": \"阿阿阿\",\n  \"age\": 12\n}"
+*************** response log end ***************
+
+[2017-11-01 15:10:02.274] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 9
+response status: 200
+response body: 
+"{\n  \"username\": \"阿阿阿\",\n  \"age\": 12\n}"
+*************** response log end ***************
+
+[2017-11-01 15:10:03.309] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"username\": \"阿阿阿\",\n  \"age\": 12\n}"
+*************** response log end ***************
+
+[2017-11-01 15:10:33.379] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"username\": \"阿阿阿\",\n  \"age\": 12\n}"
+*************** response log end ***************
+
+[2017-11-01 15:10:33.428] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 15:10:47.865] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 22
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"success\",\n  \"data\": {\n    \"username\": \"阿阿阿\",\n    \"age\": 12\n  }\n}"
+*************** response log end ***************
+
+[2017-11-01 15:10:47.919] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 15:15:41.565] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 23
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"success\",\n  \"data\": {\n    \"username\": \"阿阿阿\",\n    \"age\": 12\n  }\n}"
+*************** response log end ***************
+
+[2017-11-01 15:15:41.626] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 15:15:48.058] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"success\",\n  \"data\": {\n    \"username\": \"阿阿阿\",\n    \"age\": 12\n  }\n}"
+*************** response log end ***************
+
+[2017-11-01 15:15:48.085] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 15:16:14.843] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"success\",\n  \"data\": {\n    \"username\": \"阿阿阿\",\n    \"age\": 12\n  }\n}"
+*************** response log end ***************
+
+[2017-11-01 15:16:14.892] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 15:16:47.336] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"success\",\n  \"data\": {\n    \"username\": \"阿阿阿\",\n    \"age\": 12\n  }\n}"
+*************** response log end ***************
+
+[2017-11-01 15:16:47.387] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-01 15:17:15.407] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 8
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"success\",\n  \"data\": {\n    \"username\": \"阿阿阿\",\n    \"age\": 12\n  }\n}"
+*************** response log end ***************
+
+[2017-11-01 15:17:15.458] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+

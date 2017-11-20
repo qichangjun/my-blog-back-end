@@ -1,0 +1,427 @@
+[2017-11-02 17:10:39.544] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 67
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"err\",\n  \"data\": \"ReferenceError: addInfo is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:15:27.504] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 11
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"err\",\n  \"data\": \"ReferenceError: secret is not defined\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:15:57.271] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQxNTcsImV4cCI6MTUwOTY1NzM1N30.cHiWnwN0vxGsMZGGOQ5MvTBzgocHcsr8QjXwhCFjrGk"}
+response time: 20
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:16:00.242] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQxNjAsImV4cCI6MTUwOTY1NzM2MH0.873QW1adJT0Ej6PBvwO25P8VTcCWk46e5YczMoKrw1Y"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:16:02.242] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQxNjIsImV4cCI6MTUwOTY1NzM2Mn0.F4rqusLVrZlbfd8DAf1N-l9CkLLcrXB3WgYhpQoccyo"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:16:02.425] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQxNjIsImV4cCI6MTUwOTY1NzM2Mn0.F4rqusLVrZlbfd8DAf1N-l9CkLLcrXB3WgYhpQoccyo"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:16:02.592] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQxNjIsImV4cCI6MTUwOTY1NzM2Mn0.F4rqusLVrZlbfd8DAf1N-l9CkLLcrXB3WgYhpQoccyo"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:16:59.196] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQyMTksImV4cCI6MTUwOTY1NzQxOX0.3idstUTEtweLwqO4iEeroiXm00UA6V0zYgaU9EBCd_w"}
+response time: 20
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:17:30.108] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQyNTAsImV4cCI6MTUwOTY1NzQ1MH0._8PgbljuprivjGW8QvLTpxkHiJcIRmLkkM2JyKxP3Uk"}
+response time: 25
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:17:48.739] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQyNjgsImV4cCI6MTUwOTY1NzQ2OH0.rhYnt_-3esEvQwKC6fp2x0dGbH6-YYNKRfvb5GiNbAM"}
+response time: 21
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:17:53.876] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQyNzMsImV4cCI6MTUwOTY1NzQ3M30.lqCCk10teQqdNcZX_D-WtlJyX-kBFCdEuj3caIEkvag"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:18:06.644] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQyODYsImV4cCI6MTUwOTY1NzQ4Nn0.n61-wN8DbujY6DfzzcK1pNEIVbFUA7ytKRX2pL2SrW4"}
+response time: 21
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:18:27.232] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQzMDcsImV4cCI6MTUwOTY1NzUwN30.tObxwKTO0hVnJQqILcgrbmoF_QRm0Fuozqfnd1kngBc"}
+response time: 24
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:22:44.135] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQ1NjQsImV4cCI6MTUwOTY1Nzc2NH0.83GPF30ksNrx_uqc1czq9Dgx2qOlE0dokqAB-oNxUOA"}
+response time: 20
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:29:10.912] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQ5NTAsImV4cCI6MTUwOTY1ODE1MH0.6HZdjc-nEpgIOrpvu1OT2KFWIP4ZZFU6giAtNWzsXhA"}
+response time: 33
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"err\",\n  \"data\": \"WriteError({\\\"code\\\":11000,\\\"index\\\":0,\\\"errmsg\\\":\\\"E11000 duplicate key error collection: mytestdb.usermodels index: user_1 dup key: { : null }\\\",\\\"op\\\":{\\\"userName\\\":\\\"admin\\\",\\\"password\\\":\\\"2017Dctm@1234\\\",\\\"token\\\":\\\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQ5NTAsImV4cCI6MTUwOTY1ODE1MH0.6HZdjc-nEpgIOrpvu1OT2KFWIP4ZZFU6giAtNWzsXhA\\\",\\\"_id\\\":\\\"59fae566efaa62273506855b\\\",\\\"__v\\\":0}})\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:29:30.268] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQ5NzAsImV4cCI6MTUwOTY1ODE3MH0.HmOSqYAQxcJv5IKB0sQvWjPVVPxD1rn_gDbiqNaocgM"}
+response time: 30
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"err\",\n  \"data\": \"WriteError({\\\"code\\\":11000,\\\"index\\\":0,\\\"errmsg\\\":\\\"E11000 duplicate key error collection: mytestdb.usermodels index: user_1 dup key: { : null }\\\",\\\"op\\\":{\\\"userName\\\":\\\"admin\\\",\\\"password\\\":\\\"2017Dctm@1234\\\",\\\"token\\\":\\\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQ5NzAsImV4cCI6MTUwOTY1ODE3MH0.HmOSqYAQxcJv5IKB0sQvWjPVVPxD1rn_gDbiqNaocgM\\\",\\\"_id\\\":\\\"59fae57afa6a5b273ed6b11b\\\",\\\"__v\\\":0}})\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:29:54.601] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQ5OTQsImV4cCI6MTUwOTY1ODE5NH0.T-h2z5JeupddLWLOx0iEvV4P20g6RYKkaUCl9_uJO-w"}
+response time: 29
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"err\",\n  \"data\": \"WriteError({\\\"code\\\":11000,\\\"index\\\":0,\\\"errmsg\\\":\\\"E11000 duplicate key error collection: mytestdb.usermodels index: user_1 dup key: { : null }\\\",\\\"op\\\":{\\\"userName\\\":\\\"admin\\\",\\\"password\\\":\\\"2017Dctm@1234\\\",\\\"token\\\":\\\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTQ5OTQsImV4cCI6MTUwOTY1ODE5NH0.T-h2z5JeupddLWLOx0iEvV4P20g6RYKkaUCl9_uJO-w\\\",\\\"_id\\\":\\\"59fae592038fd32741addc58\\\",\\\"__v\\\":0}})\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:32:05.209] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTUxMjUsImV4cCI6MTUwOTY1ODMyNX0.U9MWxaXQVruKwHA-KFes3uFTySO_bvkqaubab_4x_rE"}
+response time: 28
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"err\",\n  \"data\": \"WriteError({\\\"code\\\":11000,\\\"index\\\":0,\\\"errmsg\\\":\\\"E11000 duplicate key error collection: mytestdb.usermodels index: user_1 dup key: { : null }\\\",\\\"op\\\":{\\\"userName\\\":\\\"admin\\\",\\\"password\\\":\\\"2017Dctm@1234\\\",\\\"token\\\":\\\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTUxMjUsImV4cCI6MTUwOTY1ODMyNX0.U9MWxaXQVruKwHA-KFes3uFTySO_bvkqaubab_4x_rE\\\",\\\"_id\\\":\\\"59fae6151eb7d0274651b67c\\\",\\\"__v\\\":0}})\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:32:32.811] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"sdsadadasdad","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTUxNTIsImV4cCI6MTUwOTY1ODM1Mn0.PcAaacixMiDcf1Yo8yqiohnZHR4UIyB2ByeK0A07Zjc"}
+response time: 29
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"err\",\n  \"data\": \"WriteError({\\\"code\\\":11000,\\\"index\\\":0,\\\"errmsg\\\":\\\"E11000 duplicate key error collection: mytestdb.usermodels index: user_1 dup key: { : null }\\\",\\\"op\\\":{\\\"userName\\\":\\\"admin\\\",\\\"password\\\":\\\"sdsadadasdad\\\",\\\"token\\\":\\\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTUxNTIsImV4cCI6MTUwOTY1ODM1Mn0.PcAaacixMiDcf1Yo8yqiohnZHR4UIyB2ByeK0A07Zjc\\\",\\\"_id\\\":\\\"59fae630553f00274ffb824f\\\",\\\"__v\\\":0}})\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:34:17.487] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"sdsadadasdad","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTUyNTcsImV4cCI6MTUwOTY1ODQ1N30.-qtes4QlxQlTVVbmCWk_F-OeDtOeFS_WJaXHkDMwPGc"}
+response time: 29
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"err\",\n  \"data\": \"WriteError({\\\"code\\\":11000,\\\"index\\\":0,\\\"errmsg\\\":\\\"E11000 duplicate key error collection: mytestdb.usermodels index: user_1 dup key: { : null }\\\",\\\"op\\\":{\\\"userName\\\":\\\"admin\\\",\\\"password\\\":\\\"sdsadadasdad\\\",\\\"token\\\":\\\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTUyNTcsImV4cCI6MTUwOTY1ODQ1N30.-qtes4QlxQlTVVbmCWk_F-OeDtOeFS_WJaXHkDMwPGc\\\",\\\"_id\\\":\\\"59fae699e1dcf427641d10ec\\\",\\\"__v\\\":0}})\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:37:38.730] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","password":"sdsadadasdad","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTU0NTgsImV4cCI6MTUwOTY1ODY1OH0.3882fCVmC45kLT5gzzxedZYELA060NGNzYZJU2rnRlM"}
+response time: 28
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"err\",\n  \"data\": \"WriteError({\\\"code\\\":11000,\\\"index\\\":0,\\\"errmsg\\\":\\\"E11000 duplicate key error collection: mytestdb.usermodels index: user_1 dup key: { : null }\\\",\\\"op\\\":{\\\"userName\\\":\\\"admin\\\",\\\"password\\\":\\\"sdsadadasdad\\\",\\\"token\\\":\\\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpYXQiOjE1MDk2MTU0NTgsImV4cCI6MTUwOTY1ODY1OH0.3882fCVmC45kLT5gzzxedZYELA060NGNzYZJU2rnRlM\\\",\\\"_id\\\":\\\"59fae76270d04827788d927b\\\",\\\"__v\\\":0}})\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:37:46.380] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"svvavsas","password":"sdsadadasdad","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoic3Z2YXZzYXMiLCJpYXQiOjE1MDk2MTU0NjYsImV4cCI6MTUwOTY1ODY2Nn0.hVhqGsdhkS5k_AWxTZa7KCRXWTKbT3rmco6zdfsJjEE"}
+response time: 6
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"err\",\n  \"data\": \"WriteError({\\\"code\\\":11000,\\\"index\\\":0,\\\"errmsg\\\":\\\"E11000 duplicate key error collection: mytestdb.usermodels index: user_1 dup key: { : null }\\\",\\\"op\\\":{\\\"userName\\\":\\\"svvavsas\\\",\\\"password\\\":\\\"sdsadadasdad\\\",\\\"token\\\":\\\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoic3Z2YXZzYXMiLCJpYXQiOjE1MDk2MTU0NjYsImV4cCI6MTUwOTY1ODY2Nn0.hVhqGsdhkS5k_AWxTZa7KCRXWTKbT3rmco6zdfsJjEE\\\",\\\"_id\\\":\\\"59fae76a70d04827788d927c\\\",\\\"__v\\\":0}})\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:37:47.597] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 21
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:37:48.029] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:38:42.718] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"svvavsas","password":"sdsadadasdad","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoic3Z2YXZzYXMiLCJpYXQiOjE1MDk2MTU1MjIsImV4cCI6MTUwOTY1ODcyMn0.uCbN6CuPyJGXzeVHxvqg7Sl5s8AuCPO0mx6USiHug5E"}
+response time: 27
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:38:45.942] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"svvavsas","password":"sdsadadasdad"}
+response time: 43
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"error\",\n  \"data\": \"用户名已存在\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:38:52.409] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"add","password":"sdsadadasdad","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWRkIiwiaWF0IjoxNTA5NjE1NTMyLCJleHAiOjE1MDk2NTg3MzJ9.57Lq-cxmf2JBJZCM_diN0EMxtvSMy0AcrPMkK0ONjzI"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:45:49.419] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"12345"}
+response time: 12
+response status: 200
+response body: 
+"{\n  \"status\": 0,\n  \"msg\": \"用户不存在\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:45:52.325] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/registerUser
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"12345","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoicWljaGFuZ2p1biIsImlhdCI6MTUwOTYxNTk1MiwiZXhwIjoxNTA5NjU5MTUyfQ.51NJ3zc7yYPTBxKpII8fIhXWC7QfsI2QI20ZtwpPKcs"}
+response time: 18
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"注册成功\",\n  \"data\": null\n}"
+*************** response log end ***************
+
+[2017-11-02 17:45:54.393] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"12345"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"status\": 1,\n  \"msg\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5NjE1OTU0LCJleHAiOjE1MDk2NTkxNTR9.ZHRGLEpDz3ispol4sv0cbmcmaVrlXKyQbwbeyTTje2g\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:46:23.809] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"12345"}
+response time: 18
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5NjE1OTgzLCJleHAiOjE1MDk2NTkxODN9.Xrv7HmAE4t2Y8Fo_Z5muBQuiOhZEY75zUB-eA5mU0YQ\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:46:32.005] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"12345"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5NjE1OTkyLCJleHAiOjE1MDk2NTkxOTJ9.BHrMZTpq9_p3oMlA6PHag0Nh2unifpifwjV5sTiCnj4\"\n}"
+*************** response log end ***************
+
+[2017-11-02 17:46:36.269] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"qichangjun","password":"12345"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYWU5NTAwM2RkM2YyODI2MzNkZGFlIiwiaWF0IjoxNTA5NjE1OTk2LCJleHAiOjE1MDk2NTkxOTZ9.DAzmjuYZISkGHVOmxNIH0E_7MaBahwoYxU2xEnVALsg\"\n}"
+*************** response log end ***************
+
