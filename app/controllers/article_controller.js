@@ -73,6 +73,7 @@ exports.editArticle = async (ctx,next)=>{
         let art = await articleModel.findById(info._id)                 
         art.content = info.content
         art.title = info.title
+        art.label = info.label
         addArticle = new articleModel(art)          
         await addArticle.save();
         ctx.status = 200
