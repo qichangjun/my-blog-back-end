@@ -2,10 +2,9 @@ const db = require('../../db/model.js');
 const mongoose = require('mongoose');
 const userModel = db.userAPI;
 const articleModel = db.articleAPI;
+const labelModel = db.labelAPI;
 
 const resObj = require('../../utils/resObj')
-
-
 
 exports.createArticle = async (ctx,next)=>{
     let info = ctx.request.body;
@@ -21,11 +20,29 @@ exports.createArticle = async (ctx,next)=>{
             .then(async (data)=>{
                 if (data.length == 0){
                     ctx.body = resObj(0,'error','用户不存在');
-                }else{                       
+                }else{     
+                    if (info.label && info.label.length > 5) {
+                        ctx.body = resObj(0,'error','标签不能超过5个');
+                        return 
+                    }                    
                     info.author = data[0].userName
-                    info.lastReplyTime = new Date();
+                    info.lastReplyTime = new Date();                    
                     addArticle = new articleModel(info)          
                     await addArticle.save();
+                    if (info.label && info.label.length > 0){
+                        let res = await labelModel.find({name : info.label});
+                        if(res.length > 0){                 
+                            res[0].number++;                
+                            let addData = new labelModel(res[0])
+                            await addData.save();                          
+                        }else{
+                            info.label.forEach(async (c)=>{
+                                let addInfo = {name : c}
+                                let addArticle = new labelModel(addInfo) 
+                                await addArticle.save();
+                            })                                                      
+                        }                                                
+                    }
                     ctx.status = 200
                     ctx.body = resObj(1,'创建成功',null)
                 }
@@ -84,15 +101,19 @@ exports.getArticleLists = async (ctx,next)=>{
             let skipNum = 0
             if (info.currentPage && info.pageSize){                
                 skipNum = (info.currentPage-1)*info.pageSize
-            }                       
-            let length = await articleModel.find().count();            
+            }                                             
             let sort = {}
             if (info.sortField){
                 sort[info.sortField] = info.sortWay || -1            
             }else{
                 sort.lastReplyTime = -1            
-            }            
-            res.data = await articleModel.find().limit(count).skip(skipNum).sort(sort).exec();
+            }    
+            labels = {}
+            if (info.labels && info.labels.length > 0){
+                labels = {label :{"$all":info.labels} }
+            }
+            let length = await articleModel.find(labels).count();  
+            res.data = await articleModel.find(labels).limit(count).skip(skipNum).sort(sort).exec();
             res.totalElement = length
             ctx.status = 200
             ctx.body = resObj(1,'操作成功',res)
@@ -138,7 +159,6 @@ exports.deleteArticle = async (ctx,next)=>{
         ctx.body = resObj(0,'数据库错误',e.toString())
     }    
 }
-
 
 exports.getOwnarticleLists = async (ctx,next)=>{
     let info = ctx.request.body;
@@ -190,7 +210,6 @@ exports.updateCheckTimes = async (ctx,next)=>{
     }   
 }
 
-
 exports.getArticleDetail = async (ctx,next)=>{
     let getParams = ctx.request.query;
     let id = getParams.id
@@ -204,7 +223,6 @@ exports.getArticleDetail = async (ctx,next)=>{
         ctx.body = resObj(0,'数据库错误',e.toString())
     }
 }
-
 
 exports.addReply = async(ctx,next)=>{
     let info = ctx.request.body;

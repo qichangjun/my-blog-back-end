@@ -1,0 +1,76 @@
+[2017-11-21 12:57:48.019] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /record/update/single?accessUser=RS9Iek45VGk4K0tkWTJlOEZzMm80b1IxcDBtM2ZjTlVNT0lWNUk5T25rU2lUWGtVZjVta29hdGZPblgwV28rTWc3UVkxSE1GTnVsRnhXdkF2cGVwNEJqcWc3Qmx0WVZwdlEyWFpBZDE1SFRQTnBSMmROQlp5SUcyaDd1Wng4Zmc=&accessToken=b97f18d69840450bd9af01cb7ff8f45d
+request client ip:  ::1
+request body: 
+{"objectId":"0b01e24080046508","objectName":null,"parentId":"0b01e24080027907","recordId":"","archivalId":"档案号008","securityLevel":"public","openLevel":"public","author":"","recordTitle":"qwert","recordDescripition":"","tag":null,"originatingDepartment":"办公室","year":"","originatingOrganization":"杭州市档案局","submitBy":"金萍","receviedDate":"2017-08-07","filedBy":"","filedDate":null,"retentionPeriod":"","mediaType":"digital_files","eventOccuredDate":"2017-8-7","recordAuthors":"abc123","collectionWay":"","objectType":"dw_text_records","superType":null,"documentType":null,"documentNumber":"","publicationDate":null,"pages":0,"appendix":"","eventDescription":null,"eventLocation":null,"people":null,"photographer":null,"copyRights":null,"originator":null,"categoryCode":null,"classIDs":null,"identityDate":null,"identityBy":null,"types":null,"retentionPeriodName":"","duration":0,"creator":null,"creationDate":null,"sheets":0,"pageNumber":0,"path":null,"messageNumber":null,"filed":false,"recordList":false,"identified":false,"storagePaths":[],"fullTextTypes":[],"attributeLength":[],"attributeName":[],"attributeType":[],"attributeValue":[],"isNotNull":[],"documentObjectIds":["0901e24080046556","0901e24080046557","0901e24080046518","0901e24080046517"],"documentFullTextTypes":["正文","正文","正文","正文"],"objectIds":[],"accessUser":"RS9Iek45VGk4K0tkWTJlOEZzMm80b1IxcDBtM2ZjTlVNT0lWNUk5T25rU2lUWGtVZjVta29hdGZPblgwV28rTWc3UVkxSE1GTnVsRnhXdkF2cGVwNEJqcWc3Qmx0WVZwdlEyWFpBZDE1SFRQTnBSMmROQlp5SUcyaDd1Wng4Zmc=","accessToken":"b97f18d69840450bd9af01cb7ff8f45d"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-21 12:59:16.605] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/createArticle
+request client ip:  ::1
+request body: 
+{"title":"dwdwdw","content":"dwdw","MarkdownContent":"<p>dwdw</p>\n","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMjM2MjI1LCJleHAiOjE1MTEyNzk0MjV9.lRczP8sfvHBrtIVSQg8D7BJlXthjFscNSrrK8D9lkh4"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"创建成功\",\n  \"data\": {\n    \"title\": \"dwdwdw\",\n    \"content\": \"dwdw\",\n    \"MarkdownContent\": \"<p>dwdw</p>\\n\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMjM2MjI1LCJleHAiOjE1MTEyNzk0MjV9.lRczP8sfvHBrtIVSQg8D7BJlXthjFscNSrrK8D9lkh4\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-21 12:59:16.712] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::1
+request body: 
+{"currentPage":1,"pageSize":10,"sortField":"lastReplyTime","totalElement":1,"labels":[],"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMjM2MjI1LCJleHAiOjE1MTEyNzk0MjV9.lRczP8sfvHBrtIVSQg8D7BJlXthjFscNSrrK8D9lkh4"}
+response time: 36
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"data\": [\n      {\n        \"_id\": \"5a0e8b7f49b148371be1f96f\",\n        \"title\": \"vedvde\",\n        \"content\": \"vdve\",\n        \"author\": \"qichangjun\",\n        \"lastReplyTime\": \"2017-11-20T01:32:39.585Z\",\n        \"__v\": 0,\n        \"replyList\": [\n          {\n            \"userName\": \"qichangjun\",\n            \"content\": \"dd\",\n            \"_id\": \"5a0e8cd449b148371be1f971\",\n            \"replyChildList\": [],\n            \"replyTime\": \"2017-11-17T07:16:36.427Z\"\n          },\n          {\n            \"userName\": \"qichangjun\",\n            \"content\": \"ddcc\",\n            \"_id\": \"5a0e8cd849b148371be1f972\",\n            \"replyChildList\": [],\n            \"replyTime\": \"2017-11-17T07:16:40.748Z\"\n          },\n          {\n            \"userName\": \"qichangjun\",\n            \"content\": \"ddccxxsa\",\n            \"_id\": \"5a0e8cdb49b148371be1f973\",\n            \"replyChildList\": [],\n            \"replyTime\": \"2017-11-17T07:16:43.954Z\"\n          },\n          {\n            \"userName\": \"qichangjun\",\n            \"content\": \"![32f8b3d82fc63.jpg](http://7xpyje.com1.z0.glb.clouddn.com/32f8b3d82fc63.jpg)\",\n            \"_id\": \"5a0e956027648c3bc64a8f77\",\n            \"replyChildList\": [],\n            \"replyTime\": \"2017-11-17T07:53:04.705Z\"\n          },\n          {\n            \"userName\": \"admin\",\n            \"content\": \"![1edca434719e2.png](http://7xpyje.com1.z0.glb.clouddn.com/1edca434719e2.png?imageView2/1/w/400/h/400/q/75|watermark/2/text/5bCP5LiD5Y2a5a6i/font/5a6L5L2T/fontsize/400/fill/I0RBQ0RDRA==/dissolve/48/gravity/SouthEast/dx/10/dy/10|imageslim)\",\n            \"_id\": \"5a1230b76b9523050f9cff65\",\n            \"replyChildList\": [],\n            \"replyTime\": \"2017-11-20T01:32:39.609Z\"\n          }\n        ],\n        \"replyNum\": 5,\n        \"viewed\": 28,\n        \"creatDate\": \"2017-11-17T07:10:55.336Z\"\n      },\n      {\n        \"_id\": \"5a0e8b7949b148371be1f96e\",\n        \"title\": \"fvf\",\n        \"content\": \"fvfv\",\n        \"author\": \"qichangjun\",\n        \"lastReplyTime\": \"2017-11-17T07:10:49.242Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-17T07:10:49.242Z\"\n      },\n      {\n        \"_id\": \"5a0e8b7449b148371be1f96d\",\n        \"title\": \"dvdv\",\n        \"content\": \"dvdv\",\n        \"author\": \"qichangjun\",\n        \"lastReplyTime\": \"2017-11-17T07:10:44.618Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-17T07:10:44.618Z\"\n      },\n      {\n        \"_id\": \"5a0e8b7049b148371be1f96c\",\n        \"title\": \"avav\",\n        \"content\": \"avava\",\n        \"author\": \"qichangjun\",\n        \"lastReplyTime\": \"2017-11-17T07:10:40.363Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-17T07:10:40.363Z\"\n      },\n      {\n        \"_id\": \"5a0e8b6b49b148371be1f96b\",\n        \"title\": \"wc\",\n        \"content\": \"wcwcc\",\n        \"author\": \"qichangjun\",\n        \"lastReplyTime\": \"2017-11-17T07:10:35.909Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-17T07:10:35.909Z\"\n      },\n      {\n        \"_id\": \"5a0e8b6849b148371be1f96a\",\n        \"title\": \"wc\",\n        \"content\": \"wcw\",\n        \"author\": \"qichangjun\",\n        \"lastReplyTime\": \"2017-11-17T07:10:32.066Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-17T07:10:32.066Z\"\n      },\n      {\n        \"_id\": \"5a0e8b4c49b148371be1f969\",\n        \"title\": \"vwvw\",\n        \"content\": \"wvwvw\",\n        \"author\": \"qichangjun\",\n        \"lastReplyTime\": \"2017-11-17T07:10:04.475Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-17T07:10:04.475Z\"\n      },\n      {\n        \"_id\": \"5a0e8b4849b148371be1f968\",\n        \"title\": \"qd\",\n        \"content\": \"wdqd\",\n        \"author\": \"qichangjun\",\n        \"lastReplyTime\": \"2017-11-17T07:10:00.029Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-17T07:10:00.029Z\"\n      },\n      {\n        \"_id\": \"5a0e8b4249b148371be1f967\",\n        \"title\": \"de\",\n        \"content\": \"edede\",\n        \"author\": \"qichangjun\",\n        \"lastReplyTime\": \"2017-11-17T07:09:54.685Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-17T07:09:54.685Z\"\n      },\n      {\n        \"_id\": \"5a0e5fd7706fa732cd90605e\",\n        \"title\": \"操操操操操操aaa\",\n        \"content\": \"11111112222222333\",\n        \"author\": \"qichangjun\",\n        \"lastReplyTime\": \"2017-11-17T04:04:39.502Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"replyNum\": 0,\n        \"viewed\": 9,\n        \"creatDate\": \"2017-11-17T04:04:39.502Z\"\n      }\n    ],\n    \"totalElement\": 18\n  }\n}"
+*************** response log end ***************
+
+[2017-11-21 12:59:19.481] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/createArticle
+request client ip:  ::1
+request query:  {}
+response time: 62
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-21 12:59:20.159] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"error\"\n}"
+*************** response log end ***************
+
+[2017-11-21 12:59:44.247] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/createArticle?accessUser=RS9Iek45VGk4K0tkWTJlOEZzMm80b1IxcDBtM2ZjTlVNT0lWNUk5T25rU2lUWGtVZjVta29hdGZPblgwV28rTWc3UVkxSE1GTnVsRnhXdkF2cGVwNEJqcWc3Qmx0WVZwdlEyWFpBZDE1SFRQTnBSMmROQlp5SUcyaDd1Wng4Zmc=&accessToken=b97f18d69840450bd9af01cb7ff8f45d
+request client ip:  ::1
+request body: 
+{"objectId":"0b01e24080046508","objectName":null,"parentId":"0b01e24080027907","recordId":"","archivalId":"档案号008","securityLevel":"public","openLevel":"public","author":"","recordTitle":"qwert","recordDescripition":"","tag":null,"originatingDepartment":"办公室","year":"","originatingOrganization":"杭州市档案局","submitBy":"金萍","receviedDate":"2017-08-07","filedBy":"","filedDate":null,"retentionPeriod":"","mediaType":"digital_files","eventOccuredDate":"2017-8-7","recordAuthors":"abc123","collectionWay":"","objectType":"dw_text_records","superType":null,"documentType":null,"documentNumber":"","publicationDate":null,"pages":0,"appendix":"","eventDescription":null,"eventLocation":null,"people":null,"photographer":null,"copyRights":null,"originator":null,"categoryCode":null,"classIDs":null,"identityDate":null,"identityBy":null,"types":null,"retentionPeriodName":"","duration":0,"creator":null,"creationDate":null,"aclName":"dm_4501e2408001b103","sheets":0,"pageNumber":0,"path":null,"messageNumber":null,"filed":false,"recordList":false,"identified":false,"storagePaths":[],"fullTextTypes":[],"attributeLength":[],"attributeName":[],"attributeType":[],"attributeValue":[],"isNotNull":[],"documentObjectIds":["0901e24080046556","0901e24080046557","0901e24080046518","0901e24080046517"],"documentFullTextTypes":["正文","正文","正文","正文"],"objectIds":[],"accessUser":"RS9Iek45VGk4K0tkWTJlOEZzMm80b1IxcDBtM2ZjTlVNT0lWNUk5T25rU2lUWGtVZjVta29hdGZPblgwV28rTWc3UVkxSE1GTnVsRnhXdkF2cGVwNEJqcWc3Qmx0WVZwdlEyWFpBZDE1SFRQTnBSMmROQlp5SUcyaDd1Wng4Zmc=","accessToken":"b97f18d69840450bd9af01cb7ff8f45d"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"创建成功\",\n  \"data\": {\n    \"objectId\": \"0b01e24080046508\",\n    \"objectName\": null,\n    \"parentId\": \"0b01e24080027907\",\n    \"recordId\": \"\",\n    \"archivalId\": \"档案号008\",\n    \"securityLevel\": \"public\",\n    \"openLevel\": \"public\",\n    \"author\": \"\",\n    \"recordTitle\": \"qwert\",\n    \"recordDescripition\": \"\",\n    \"tag\": null,\n    \"originatingDepartment\": \"办公室\",\n    \"year\": \"\",\n    \"originatingOrganization\": \"杭州市档案局\",\n    \"submitBy\": \"金萍\",\n    \"receviedDate\": \"2017-08-07\",\n    \"filedBy\": \"\",\n    \"filedDate\": null,\n    \"retentionPeriod\": \"\",\n    \"mediaType\": \"digital_files\",\n    \"eventOccuredDate\": \"2017-8-7\",\n    \"recordAuthors\": \"abc123\",\n    \"collectionWay\": \"\",\n    \"objectType\": \"dw_text_records\",\n    \"superType\": null,\n    \"documentType\": null,\n    \"documentNumber\": \"\",\n    \"publicationDate\": null,\n    \"pages\": 0,\n    \"appendix\": \"\",\n    \"eventDescription\": null,\n    \"eventLocation\": null,\n    \"people\": null,\n    \"photographer\": null,\n    \"copyRights\": null,\n    \"originator\": null,\n    \"categoryCode\": null,\n    \"classIDs\": null,\n    \"identityDate\": null,\n    \"identityBy\": null,\n    \"types\": null,\n    \"retentionPeriodName\": \"\",\n    \"duration\": 0,\n    \"creator\": null,\n    \"creationDate\": null,\n    \"aclName\": \"dm_4501e2408001b103\",\n    \"sheets\": 0,\n    \"pageNumber\": 0,\n    \"path\": null,\n    \"messageNumber\": null,\n    \"filed\": false,\n    \"recordList\": false,\n    \"identified\": false,\n    \"storagePaths\": [],\n    \"fullTextTypes\": [],\n    \"attributeLength\": [],\n    \"attributeName\": [],\n    \"attributeType\": [],\n    \"attributeValue\": [],\n    \"isNotNull\": [],\n    \"documentObjectIds\": [\n      \"0901e24080046556\",\n      \"0901e24080046557\",\n      \"0901e24080046518\",\n      \"0901e24080046517\"\n    ],\n    \"documentFullTextTypes\": [\n      \"正文\",\n      \"正文\",\n      \"正文\",\n      \"正文\"\n    ],\n    \"objectIds\": [],\n    \"accessUser\": \"RS9Iek45VGk4K0tkWTJlOEZzMm80b1IxcDBtM2ZjTlVNT0lWNUk5T25rU2lUWGtVZjVta29hdGZPblgwV28rTWc3UVkxSE1GTnVsRnhXdkF2cGVwNEJqcWc3Qmx0WVZwdlEyWFpBZDE1SFRQTnBSMmROQlp5SUcyaDd1Wng4Zmc=\",\n    \"accessToken\": \"b97f18d69840450bd9af01cb7ff8f45d\"\n  }\n}"
+*************** response log end ***************
+
