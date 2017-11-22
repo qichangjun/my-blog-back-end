@@ -1,0 +1,751 @@
+[2017-11-22 09:48:52.442] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::1
+request body: 
+{"userName":"admin","password":"2017Dctm@1234"}
+response time: 119
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"success\",\n  \"data\": {\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM\",\n    \"userName\": \"admin\",\n    \"role\": \"normal\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:48:52.859] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/getArticleLists
+request client ip:  ::1
+request body: 
+{"currentPage":1,"pageSize":10,"sortField":"lastReplyTime","totalElement":1,"labels":[],"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 27
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"data\": [\n      {\n        \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n        \"title\": \"ghhhh\",\n        \"content\": \"gggerge\",\n        \"author\": \"admin\",\n        \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"label\": [\n          \"angular\"\n        ],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n      },\n      {\n        \"_id\": \"5a13dcea314c147535a700b7\",\n        \"title\": \"ghhhh\",\n        \"content\": \"gggerge\",\n        \"author\": \"admin\",\n        \"lastReplyTime\": \"2017-11-21T07:59:38.425Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"label\": [\n          \"angular\"\n        ],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-21T07:59:38.425Z\"\n      },\n      {\n        \"_id\": \"5a13dcca314c147535a700b4\",\n        \"title\": \"测试标签\",\n        \"content\": \"测试标签\",\n        \"author\": \"admin\",\n        \"lastReplyTime\": \"2017-11-21T07:59:06.772Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"label\": [\n          \"angular\",\n          \"javascript\"\n        ],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-21T07:59:06.772Z\"\n      },\n      {\n        \"_id\": \"5a13dbfb49a16c75252cc059\",\n        \"title\": \"cd\",\n        \"content\": \"cdcd\",\n        \"author\": \"admin\",\n        \"lastReplyTime\": \"2017-11-21T07:55:39.191Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"label\": [\n          \"111\",\n          \"222\"\n        ],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-21T07:55:39.191Z\"\n      },\n      {\n        \"_id\": \"5a13daee318f07746f106f06\",\n        \"title\": \"测试测试标签\",\n        \"content\": \"sss\",\n        \"author\": \"admin\",\n        \"lastReplyTime\": \"2017-11-21T07:51:10.817Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"label\": [\n          \"angular\",\n          \"javascript\"\n        ],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-21T07:51:10.817Z\"\n      },\n      {\n        \"_id\": \"5a13da0771bb24738eaa2364\",\n        \"title\": \"hhh\",\n        \"content\": \"hhhh\",\n        \"author\": \"admin\",\n        \"lastReplyTime\": \"2017-11-21T07:47:19.202Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"label\": [\n          \"angular\",\n          \"javascript\"\n        ],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-21T07:47:19.202Z\"\n      },\n      {\n        \"_id\": \"5a13d977388a5771acb8b85d\",\n        \"title\": \"aaa\",\n        \"content\": \"aaa\",\n        \"author\": \"admin\",\n        \"lastReplyTime\": \"2017-11-21T07:44:55.766Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"label\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-21T07:44:55.766Z\"\n      },\n      {\n        \"_id\": \"5a0e8b7f49b148371be1f96f\",\n        \"title\": \"vedvde\",\n        \"content\": \"vdve\",\n        \"author\": \"qichangjun\",\n        \"lastReplyTime\": \"2017-11-20T01:32:39.585Z\",\n        \"__v\": 0,\n        \"replyList\": [\n          {\n            \"userName\": \"qichangjun\",\n            \"content\": \"dd\",\n            \"_id\": \"5a0e8cd449b148371be1f971\",\n            \"replyChildList\": [],\n            \"replyTime\": \"2017-11-17T07:16:36.427Z\"\n          },\n          {\n            \"userName\": \"qichangjun\",\n            \"content\": \"ddcc\",\n            \"_id\": \"5a0e8cd849b148371be1f972\",\n            \"replyChildList\": [],\n            \"replyTime\": \"2017-11-17T07:16:40.748Z\"\n          },\n          {\n            \"userName\": \"qichangjun\",\n            \"content\": \"ddccxxsa\",\n            \"_id\": \"5a0e8cdb49b148371be1f973\",\n            \"replyChildList\": [],\n            \"replyTime\": \"2017-11-17T07:16:43.954Z\"\n          },\n          {\n            \"userName\": \"qichangjun\",\n            \"content\": \"![32f8b3d82fc63.jpg](http://7xpyje.com1.z0.glb.clouddn.com/32f8b3d82fc63.jpg)\",\n            \"_id\": \"5a0e956027648c3bc64a8f77\",\n            \"replyChildList\": [],\n            \"replyTime\": \"2017-11-17T07:53:04.705Z\"\n          },\n          {\n            \"userName\": \"admin\",\n            \"content\": \"![1edca434719e2.png](http://7xpyje.com1.z0.glb.clouddn.com/1edca434719e2.png?imageView2/1/w/400/h/400/q/75|watermark/2/text/5bCP5LiD5Y2a5a6i/font/5a6L5L2T/fontsize/400/fill/I0RBQ0RDRA==/dissolve/48/gravity/SouthEast/dx/10/dy/10|imageslim)\",\n            \"_id\": \"5a1230b76b9523050f9cff65\",\n            \"replyChildList\": [],\n            \"replyTime\": \"2017-11-20T01:32:39.609Z\"\n          }\n        ],\n        \"label\": [],\n        \"replyNum\": 5,\n        \"viewed\": 28,\n        \"creatDate\": \"2017-11-17T07:10:55.336Z\"\n      },\n      {\n        \"_id\": \"5a0e8b7949b148371be1f96e\",\n        \"title\": \"fvf\",\n        \"content\": \"fvfv\",\n        \"author\": \"qichangjun\",\n        \"lastReplyTime\": \"2017-11-17T07:10:49.242Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"label\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-17T07:10:49.242Z\"\n      },\n      {\n        \"_id\": \"5a0e8b7449b148371be1f96d\",\n        \"title\": \"dvdv\",\n        \"content\": \"dvdv\",\n        \"author\": \"qichangjun\",\n        \"lastReplyTime\": \"2017-11-17T07:10:44.618Z\",\n        \"__v\": 0,\n        \"replyList\": [],\n        \"label\": [],\n        \"replyNum\": 0,\n        \"viewed\": 0,\n        \"creatDate\": \"2017-11-17T07:10:44.618Z\"\n      }\n    ],\n    \"totalElement\": 25\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:48:55.036] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 103
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 0,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:48:55.126] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 198
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 1,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:49:07.478] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 6
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 2,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:49:07.479] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 2,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:49:59.710] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 3,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:49:59.711] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 3,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:50:03.088] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 6
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 4,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:50:03.089] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 4,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:50:20.742] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 5,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:50:20.743] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 5,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:50:27.091] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 6
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 6,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:50:27.092] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 6,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:50:32.191] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 7,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:50:32.192] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 7,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:51:03.873] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 8,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:51:03.875] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 8,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:51:07.225] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 9,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:51:07.227] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 9,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:51:11.194] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 10,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:51:11.196] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 10,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:51:15.789] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 11,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:51:15.791] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 11,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:51:20.759] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 12,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:51:20.761] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 12,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:51:28.363] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 13,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:51:28.366] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 13,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:53:34.765] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 14,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:53:34.767] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 14,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:53:40.707] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 15,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:53:40.709] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 15,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:53:45.672] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 16,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:53:45.675] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 16,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:53:58.595] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 17,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:53:58.596] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 17,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:54:03.567] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 17,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:54:03.571] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 12
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 18,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:54:41.280] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 19,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:54:41.282] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 19,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:55:49.411] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 20,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:55:49.412] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 20,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:55:59.192] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 21,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:55:59.194] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 21,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:56:39.040] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 22,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:56:39.046] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 22,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:57:03.752] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 23,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:57:03.757] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 23,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:57:29.997] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 24,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:57:29.999] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 24,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:58:02.645] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 25,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:58:02.650] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 25,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:58:10.729] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 26,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:58:10.732] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 26,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:58:15.968] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 27,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:58:15.970] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 27,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:58:44.922] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 28,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:58:44.925] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 28,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:59:02.918] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a13dd0b2874a8757e13e9ed","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTExMzE1MzMyLCJleHAiOjE1MTEzNTg1MzJ9.uQ1KUOy_S9W9AMZ51o2n_byaqYXpkokFspdb8Tj2URM"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 29,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-11-22 09:59:02.920] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a13dd0b2874a8757e13e9ed
+request client ip:  ::1
+request query:  {"id":"5a13dd0b2874a8757e13e9ed"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a13dd0b2874a8757e13e9ed\",\n    \"title\": \"ghhhh\",\n    \"content\": \"gggerge\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-11-21T08:00:11.544Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"angular\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 29,\n    \"creatDate\": \"2017-11-21T08:00:11.544Z\"\n  }\n}"
+*************** response log end ***************
+

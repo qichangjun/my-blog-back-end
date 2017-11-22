@@ -1,6 +1,6 @@
 # 小七博客后台仓库
 
- 博客访问地址 : [http://116.62.227.214](http://116.62.227.214).
+ 博客访问地址 : [http://qichangjun.com](http://qichangjun.com).
 
 ## 本地启动 
 
