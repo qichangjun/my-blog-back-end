@@ -11,5 +11,5 @@ router.post('/addReply',article_controller.addReply);
 router.post('/addChildReply',article_controller.addChildReply);
 router.post('/deleteReply',article_controller.deleteReply);
 router.post('/editArticle',article_controller.editArticle);
-
+router.get('/deleteMessage',article_controller.deleteMessage);
 module.exports = router

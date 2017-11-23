@@ -251,9 +251,17 @@ exports.addReply = async(ctx,next)=>{
             userName : userName,
             content : info.content
         })
-        res.replyNum = res.replyList.length
+        res.replyNum = res.replyList.length        
         let addData = new articleModel(res)
         await addData.save();
+        if (res.author != userName){
+            author = await userModel.find({userName:res.author}).exec();
+            author = author[0]
+            author.message = author.message || []
+            author.message.push({type:'reply',content:`${userName} 回复了你的帖子 ${res.title}`,topciId:info.id,fromUser:userName})
+            addData = new userModel(author)
+            await addData.save();
+        }
         ctx.body = resObj(1,'回复成功',res);                   
     }catch(e){
         ctx.body = resObj(0,'数据库错误',e.toString())
@@ -329,6 +337,38 @@ exports.deleteReply = async (ctx,next) =>{
         let addData = new articleModel(res)
         await addData.save();
         ctx.body = resObj(1,'删除成功',res);                   
+    }catch(e){
+        ctx.body = resObj(0,'数据库错误',e.toString())
+    }   
+}
+
+exports.deleteMessage = async (ctx,next) =>{
+    let info = ctx.request.query;
+    if (!info.token){
+        ctx.status = 200
+        ctx.body = resObj(0,'参数不正确')
+        return
+    }
+    let userObj = {}
+    userObj.token = info.token;
+    try{
+        let data = await userModel.find(userObj).exec()
+        if (data.length == 0){
+            ctx.body = resObj(0,'error','用户不存在');
+            return
+        }
+        let i = 0
+        while (i < data[0].message.length) {
+            console.log(data[0].message[i]._id,info.id)
+            if (data[0].message[i]._id == info.id){
+                data[0].message.splice(i,1)
+                break;
+            }        
+            i++;  
+        }             
+        let addData = new userModel(data[0])        
+        let res = await addData.save();
+        ctx.body = resObj(1,'删除成功',res.message);                   
     }catch(e){
         ctx.body = resObj(0,'数据库错误',e.toString())
     }   

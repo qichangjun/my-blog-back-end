@@ -10,7 +10,13 @@ let adminUser = {
     token:String,
     registerTime:{type:Date,default:Date.now},
     email:String,
-    role: String
+    role: String,
+    message : [{
+        type : {required: true,type:String},
+        content : String,
+        topciId : {required: true,type:String},
+        fromUser : String
+    }]
 };
 let userSchema = new Schema(adminUser);
 let userModel = mongodb.model("usersModel", userSchema);

@@ -87,7 +87,8 @@ exports.getUserInfo = async (ctx,next)=>{
             userName :  data[0].userName,
             email :  data[0].email,
             role :  data[0].role,
-            registerTime :  data[0].registerTime
+            registerTime :  data[0].registerTime,
+            message : data[0].message
         }        
         ctx.body = resObj(1,'回复成功',res);                
     }catch(e){
