@@ -21,12 +21,9 @@ exports.getLabelLists = async (ctx,next)=>{
             ctx.body = resObj(0,'error','用户不存在');
         }else{         
             let sort = {}
-            let count = 50
-            if (info.hotLabels){
-                sort['number'] =  -1        
-                count = 10    
-            }              
-            const reg = new RegExp(info.keyword,'i')              
+            sort['number'] =  -1        
+            count = 10               
+            const reg = new RegExp(info.keyword,'i')                
             let data = await labelModel.find({
                 $or : [
                     {name : {$regex : reg}}
