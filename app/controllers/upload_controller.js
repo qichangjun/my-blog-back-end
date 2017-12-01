@@ -128,12 +128,23 @@ function upToQiniu (filePath, key) {
     
    }
 
+function readMdFile (ctx,path){
+    return new Promise((resolved, reject) => {
+        fs.readFile(path,"utf-8",function(err,data){
+            // removeTemImage(imgPath)
+            if (err){
+                reject(err)
+            }       
+            resolved(data)
+        });
+    })    
+}
+
 /**
  * 上传图片接口
  */
 exports.uploadImg = async (ctx,next)=>{
     const serverPath = path.join(__dirname, '../../public/uploads/')
-
     const result = await uploadFile(ctx, {
         fileType: 'album',
         path: serverPath
@@ -146,4 +157,16 @@ exports.uploadImg = async (ctx,next)=>{
         imgKey:qiniu.key
     }
     ctx.body = resObj(1,'上传成功',res);  
+}
+
+exports.getMdFileContent = async (ctx,next)=>{
+    const serverPath = path.join(__dirname, '../../public/uploads/')
+    const result = await uploadFile(ctx, {
+        fileType: 'album',
+        path: serverPath
+    })
+    const imgPath = path.join(serverPath, result.imgPath)   
+    let data = await readMdFile(ctx,imgPath)
+    removeTemImage(imgPath)
+    ctx.body = resObj(1,'解析成功',data);  
 }
