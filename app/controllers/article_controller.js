@@ -22,20 +22,19 @@ exports.createArticle = async (ctx,next)=>{
         info.lastReplyTime = new Date();                    
         addArticle = new articleModel(info)          
         await addArticle.save();
-        if (info.label && info.label.length > 0){
-            let res = await labelModel.find({name : info.label});
+        info.label = Array.isArray(info.label) ? info.label : [info.label]
+        for (let i = 0;i < info.label.length;i++){
+            let res = await labelModel.find({name : info.label[i]});
             if(res.length > 0){                 
                 res[0].number++;                
                 let addData = new labelModel(res[0])
-                await addData.save();                          
+                await addData.save();              
             }else{
-                info.label.forEach(async (c)=>{
-                    let addInfo = {name : c}
-                    let addArticle = new labelModel(addInfo) 
-                    await addArticle.save();
-                })                                                      
-            }                                                
-        }
+                let addInfo = {name : info.label[i]}
+                addArticle = new labelModel(addInfo)          
+                await addArticle.save();
+            }            
+        }   
         ctx.status = 200
         ctx.body = resObj(1,'创建成功',null)
     }catch(err){

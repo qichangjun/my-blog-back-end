@@ -37,17 +37,19 @@ exports.addLabel = async (ctx,next)=>{
         if (!user){
             return 
         }
-        let res = await labelModel.find({name : info.label});
-        if(res.length > 0){                 
-            res.number++;                
-            let addData = new labelModel(res)
-            await addData.save();
-            ctx.body = resObj(1,'操作成功',res);   
-            return  
-        }
-        let addInfo = {name : info.label}
-        addArticle = new labelModel(addInfo)          
-        await addArticle.save();
+        info.label = Array.isArray(info.label) ? info.label : [info.label]
+        for (let i = 0;i < info.label.length;i++){
+            let res = await labelModel.find({name : info.label[i]});
+            if(res.length > 0){                 
+                res[0].number++;                
+                let addData = new labelModel(res[0])
+                await addData.save();              
+            }else{
+                let addInfo = {name : info.label[i]}
+                addArticle = new labelModel(addInfo)          
+                await addArticle.save();
+            }            
+        }        
         ctx.body = resObj(1,'操作成功',res);  
     }catch(e){
         ctx.body = resObj(0,'数据库错误',e.toString())
