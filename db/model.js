@@ -16,7 +16,7 @@ let adminUser = {
         content : String,
         topciId : {required: true,type:String},
         fromUser : String
-    }]
+    }] 
 };
 let userSchema = new Schema(adminUser);
 let userModel = mongodb.model("usersModel", userSchema);

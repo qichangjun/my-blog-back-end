@@ -117,7 +117,6 @@ function upToQiniu (filePath, key) {
       if (respErr) {
        reject(respErr)
       }
-      console.log(respBody,respInfo)
       if (respInfo.statusCode == 200) {
        resolved(respBody)
       } else {
@@ -131,7 +130,6 @@ function upToQiniu (filePath, key) {
 function readMdFile (ctx,path){
     return new Promise((resolved, reject) => {
         fs.readFile(path,"utf-8",function(err,data){
-            // removeTemImage(imgPath)
             if (err){
                 reject(err)
             }       
@@ -159,14 +157,19 @@ exports.uploadImg = async (ctx,next)=>{
     ctx.body = resObj(1,'上传成功',res);  
 }
 
+/**
+ * 
+ * @param {*} ctx 
+ * @param {*} next 
+ */
 exports.getMdFileContent = async (ctx,next)=>{
     const serverPath = path.join(__dirname, '../../public/uploads/')
     const result = await uploadFile(ctx, {
         fileType: 'album',
         path: serverPath
     })
-    const imgPath = path.join(serverPath, result.imgPath)   
-    let data = await readMdFile(ctx,imgPath)
-    removeTemImage(imgPath)
+    const mdFilePath = path.join(serverPath, result.imgPath)   
+    let data = await readMdFile(ctx,mdFilePath)
+    removeTemImage(mdFilePath)
     ctx.body = resObj(1,'解析成功',data);  
 }

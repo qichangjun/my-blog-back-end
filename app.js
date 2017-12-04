@@ -18,7 +18,7 @@ const logger_midd = require('./middlewares/logger')
 onerror(app)
 
 // middlewares
-app.use(bodyparser({
+app.use(bodyparser({ 
   enableTypes:['json', 'form', 'text']
 }))
 //日志中间件

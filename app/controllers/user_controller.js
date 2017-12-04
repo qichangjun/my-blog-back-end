@@ -4,8 +4,22 @@ const userModel = db.userAPI;
 const resObj = require('../../utils/resObj')
 const jwt = require('jsonwebtoken')
 const secret = 'qichangjun';
-exports.getUser = async (ctx,next)=>{ 
-    ctx.body = resObj(1,'success',null)    
+
+exports.getUser = async (info,ctx,next)=>{     
+    if (!info.token){
+        ctx.status = 200
+        ctx.body = resObj(0,'参数不正确')           
+        return
+    }
+    let userObj = {}
+    userObj.token = info.token;
+    let data = await userModel.find(userObj).exec()    
+    if (data.length == 0){        
+        ctx.status = 200
+        ctx.body = resObj(1004,'用户未找到')                    
+        return
+    }
+    return data[0]
 }
 
 exports.registerUser = async (ctx,next)=>{
@@ -95,3 +109,4 @@ exports.getUserInfo = async (ctx,next)=>{
         ctx.body = resObj(0,'数据库错误',e.toString())
     }   
 }
+
