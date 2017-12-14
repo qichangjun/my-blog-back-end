@@ -1,0 +1,666 @@
+[2017-12-12 14:43:57.259] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 7
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:43:57.272] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 6
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 5,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:43:57.283] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 16
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 6,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:44:10.064] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:44:10.081] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 7,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:44:10.084] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 7,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:44:13.720] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:44:13.729] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 8,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:44:13.731] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 8,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:44:21.511] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:44:21.521] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 9,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:44:21.523] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 9,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:44:23.797] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:44:23.807] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 10,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:44:23.809] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 10,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:45:39.721] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:45:39.731] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 11,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:45:39.733] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 11,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:45:58.965] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:45:58.977] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 12,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:45:58.979] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 12,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:46:02.846] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:46:02.857] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 13,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:46:02.858] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 13,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:46:24.707] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:46:24.718] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 13,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:46:24.722] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 8
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 14,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:46:36.730] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:46:36.740] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 15,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:46:36.741] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 15,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:48:52.170] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:48:52.181] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 16,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:48:52.185] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 16,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:49:06.848] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:49:06.859] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 17,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:49:06.862] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 17,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:49:39.586] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:49:39.598] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 5
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 18,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:49:39.600] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 18,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:49:41.866] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:49:41.876] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 19,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:49:41.877] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 19,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:50:01.881] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:50:01.891] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 20,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:50:01.893] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 20,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:50:17.287] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:50:17.298] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 21,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:50:17.299] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 21,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:50:43.069] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:50:43.080] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 4
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 22,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:50:43.081] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 2
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 22,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:51:50.784] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUserInfo?userName=admin
+request client ip:  ::1
+request query:  {"userName":"admin"}
+response time: 1
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"回复成功\",\n  \"data\": {\n    \"userName\": \"admin\",\n    \"registerTime\": \"2017-11-23T07:36:51.931Z\",\n    \"message\": []\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:51:50.794] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/art/updateCheckTimes
+request client ip:  ::1
+request body: 
+{"id":"5a251436a7e8ed3f576c593a","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTlmYmNmNmJjZTg4MDkwN2MyMGI1OWNkIiwiaWF0IjoxNTEzMDUyNDk3LCJleHAiOjE1MTMwOTU2OTd9.2avOFrNDLxZ0qUsuM-fbFiRR2FrtGwDbWiGpYNZKfhs"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 23,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+
+[2017-12-12 14:51:50.796] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/art/getArticleDetail?id=5a251436a7e8ed3f576c593a
+request client ip:  ::1
+request query:  {"id":"5a251436a7e8ed3f576c593a"}
+response time: 3
+response status: 200
+response body: 
+"{\n  \"code\": 1,\n  \"message\": \"操作成功\",\n  \"data\": {\n    \"_id\": \"5a251436a7e8ed3f576c593a\",\n    \"title\": \"dwdw\",\n    \"content\": \"cadcda\",\n    \"author\": \"admin\",\n    \"lastReplyTime\": \"2017-12-04T09:24:06.126Z\",\n    \"__v\": 0,\n    \"replyList\": [],\n    \"label\": [\n      \"测试标签6\",\n      \"测试标签66\",\n      \"测试标签666\"\n    ],\n    \"replyNum\": 0,\n    \"viewed\": 23,\n    \"creatDate\": \"2017-12-04T09:24:06.126Z\"\n  }\n}"
+*************** response log end ***************
+

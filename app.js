@@ -40,9 +40,10 @@ app.use(async (ctx, next) => {
 })
 
 // routes
-app.use(api.routes(),api.allowedMethods());
-app.use(index.routes(), index.allowedMethods())
+app.use(api.routes(),api.allowedMethods());  //api.routes()=function dispatch
+
 app.use(users.routes(), users.allowedMethods())
+app.use(index.routes(), index.allowedMethods())
 app.use(response_formatter);
 // error-handling
 app.on('error', (err, ctx) => {

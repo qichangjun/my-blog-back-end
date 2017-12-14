@@ -191,7 +191,7 @@ exports.addReply = async(ctx,next)=>{
         if (!user){
             return 
         }
-        let userName = data[0].userName
+        let userName = user[0].userName
         let res = await articleModel.findById(info.id);
         if(!res){
             ctx.body = resObj(0,'文章不存在',res)
